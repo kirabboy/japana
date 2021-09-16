@@ -1,0 +1,30 @@
+body{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+}
+a{
+    text-decoration: none;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+/* breadcrumbs */
+.page-title.shop-page-title{
+    background-color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    box-shadow: -1px 1px 4px 0px rgb(137 152 172 / 30%);
+}
+.page-title.shop-page-title .breadcrumbs a{
+    color: #999;
+}
+.page-title.shop-page-title .breadcrumbs a.active,
+.page-title.shop-page-title .breadcrumbs a:hover,
+.page-title.shop-page-title .breadcrumbs span{
+    color: #007aff;
+}
