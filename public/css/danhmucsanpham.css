@@ -190,3 +190,40 @@ input.form-control:focus {
 }
 .scrollbar::-webkit-scrollbar-button {display:none}
 /* KẾT */
+
+/* FILTER GIÁ */
+    /* slider */
+.price-range-slider .range-bar{
+    border: none;
+    background: #DEE5E9;
+    height: 6px;
+    width: 96%;
+    margin-left: 8px;   
+    margin-bottom: 20px;
+}
+.price-range-slider .range-bar .ui-slider-range {
+    background:#BB0029 ;
+    height: 6px;
+}
+.price-range-slider .range-bar .ui-slider-handle {
+    border:none;
+    border-radius:25px;
+    background:#fff;
+    border:1px solid #c5c5c5;
+    height:16px;
+    width:16px;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor:pointer;
+    outline: none;
+}
+.ui-widget.ui-widget-content {
+    border: none !important;
+}
+    /* hiển thị giá */
+.widget-price input{
+    background: #fff !important;
+    cursor: not-allowed;
+    font-size: 13px;
+}
+/* KẾT */
