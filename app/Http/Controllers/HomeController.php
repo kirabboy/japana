@@ -25,6 +25,23 @@ class HomeController extends Controller
     public function csbm(){
         return view ('csbm');
     }
+    public function csdt(){
+        return view ('csdt');
+    }
+    public function hdmh(){
+        return view ('hdmh');
+    }
+    public function qlv(){
+        return view ('qlv');
+    }
+    public function qdbh(){
+        return view ('qdbh');
+    }
+    public function chtg(){
+        return view ('chtg');
+    }
+
+
 
 
 

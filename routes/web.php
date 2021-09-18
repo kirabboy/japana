@@ -14,11 +14,15 @@ use App\Http\Controllers\HomeController;
 */
 
 
-Route::get('/', [HomeController::class, 'csvc']);
-Route::get('/dkgd', [HomeController::class, 'dkgd']);
-Route::get('/pttt', [HomeController::class, 'pttt']);
+Route::get('/', [HomeController::class,'csvc']);
+Route::get('/dkgd', [HomeController::class,'dkgd']);
+Route::get('/pttt', [HomeController::class,'pttt']);
 Route::get('/tggh',[HomeController::class,'tggh']);
 Route::get('/csbh',[HomeController::class,'csbh']);
 Route::get('/csbm',[HomeController::class,'csbm']);
-
+Route::get('/csdt',[HomeController::class,'csdt']);
+Route::get('/hdmh',[HomeController::class,'hdmh']);
+Route::get('/qlv',[HomeController::class,'qlv']);
+Route::get('/qdbh',[HomeController::class,'qdbh']);
+Route::get('/chtg',[HomeController::class,'chtg']);
 

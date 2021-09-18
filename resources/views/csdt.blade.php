@@ -44,10 +44,10 @@
               <a href="{{url('/')}}" class="content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
               <a href="{{url('/dkgd')}}" class=" content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
               <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
-              <a href="{{url('/tggh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
-              <a href="{{url('/csbh')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
+              <a href="{{url('/tggh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
+              <a href="{{url('/csbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
               <a href="{{url('/csbm')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo mật </a>
-              <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
+              <a href="{{url('/csdt')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
               <a href="{{url('/hdmh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
               <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quyền lời VIP </a>
               <a href="{{url('/qdbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
@@ -67,44 +67,57 @@
         </div>
         <!--Phan noi dung cua trang Chính Sách Vận Chuyển-->
         <div class="static-detail">
-            <h3 class="title">Chính sách bảo hành</h3>
+            <h3 class="title">Chính sách đổi trả và hoàn tiền</h3>
             <div class="detail-static">
-                <p style="text-align:justify"><strong>I. ĐIỀU KIỆN BẢO HÀNH:</strong></p>
+                <h3>1. Điều kiện đổi trả hàng:</h3>
 
-                <p style="text-align:justify">1. Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau:</p>
+                <p>Hiểu được sự ngần ngại/lo lắng của khách hàng về tính xác thực của hàng hóa khi mua sắm trực tuyến, Siêu thị Nhật Bản Japana.vn hỗ trợ chính sách đồng kiểm, áp dụng với tất cả các sản phẩm được bán tại website Japana <strong>(Không áp dụng với các sản phẩm được niêm phong bởi nhà sản xuất).</strong></p>
 
-                <p style="text-align:justify">- Sản phẩm bị lỗi kỹ thuật do nhà sản xuất</p>
+                <p>Trước khi chấp nhận và thanh toán cho một đơn hàng, khách hàng của Japana có quyền yêu cầu được mở thùng hàng để kiểm tra hàng hóa bên trong có đúng với thông tin đặt hàng hay không. Các thông tin bao gồm: Số lượng, chủng loại (Model), màu sắc, kích thước, hình thức, tính nguyên vẹn của hàng hóa.</p>
 
-                <p style="text-align:justify">- Còn trong thời hạn bảo hành</p>
+                <p>Các bước kiểm tra sâu hơn như sử dụng thử sản phẩm có thể được tiến hành sau khi Quý khách đã thanh toán cho đơn hàng.</p>
 
-                <p style="text-align:justify">- Còn giữ hóa đơn mua hàng Siêu Thị Nhật Bản JAPANA</p>
+                <p>Kể từ thời gian nhận hàng, Quý khách có quyền từ chối nhận hàng và thực hiện đổi/trả hàng theo điều kiện đổi/trả hàng được cụ thể bên dưới. Quý khách hãy liên hệ ngay với bộ phận Chăm sóc khách hàng của chúng tôi để được hỗ trợ kịp thời.</p>
 
-                <p style="text-align:justify">- Phiếu bảo hành phải còn nguyên vẹn, không chấp vá, bôi xóa, sửa chữa.</p>
+                <p><strong>*** LƯU Ý: </strong>Thông tin trọng lượng của sản phẩm được thể hiện trên website là trọng lượng tương đối, chỉ mang ý nghĩa tham khảo (giúp khách hàng hình dung rõ hơn về sản phẩm), không có ý nghĩa cho việc kiểm tra, đổi trả lại hàng hóa.&nbsp;</p>
 
-                <p style="text-align:justify">- Phiếu bảo hành đầy đủ thông tin: kiểu máy, số seri, ngày sản xuất, tên khách hàng sử dụng, địa chỉ, ngày mua (đối với các sản phẩm không áp dụng Bảo hành điện tử)</p>
+                <ul>
+                <li>Điều kiện đổi hàng:</li>
+                </ul>
 
-                <p style="text-align:justify">- Tem bảo hành (và tem niêm phong) của nhà sản xuất trên sản phẩm còn nguyên vẹn.</p>
+                <p style="text-align: center;"><img class="card-img" style="width:100%" alt="CHÍNH SÁCH ĐỔI TRẢ VÀ HOÀN TIỀN" src="https://japana.vn/uploads/detail/2021/05/images/2.png" ></p>
 
-                <p style="text-align:justify">2. Những trường hợp không được bảo hành hoặc phát sinh phí bảo hành:</p>
+                <p style="text-align: center;"><img class="card-img" style="width:100%" alt="Chính sách đổi trả và hoàn tiền" src="https://japana.vn/uploads/detail/2020/05/images/adsadadsa.png" ></p>
 
-                <p style="text-align:justify">- Vi phạm một trong những điều kiện bảo hành miễn phí ở mục 1.<br>
-                - Số series, model sản phẩm không khớp với Phiếu bảo hành.<br>
-                - Khách hàng tự ý can thiệp sửa chữa sản phẩm hoặc sửa chữa tại những trung tâm bảo hành không được sự ủy nhiệm của Hãng.<br>
-                - Sản phẩm bị hư hỏng do lỗi người sử dụng, và lỗi hư không nằm trong phạm vi bảo hành của nhà sản xuất</p>
+                <ul>
+                <li>Điều kiện trả hàng:</li>
+                </ul>
 
-                <p style="text-align:justify"><strong>II. THỜI HẠN BẢO HÀNH:</strong></p>
+                <p style="text-align: center;"><img alt="CHÍNH SÁCH ĐỔI TRẢ VÀ HOÀN TIỀN" src="https://japana.vn/uploads/detail/2021/05/images/1.png" style="width: 800px; height: 465px;"></p>
 
-                <p style="text-align:justify">Thời hạn bảo hành được tính kể từ ngày mua hàng hoặc kể từ ngày sản xuất tùy thuộc từng loại sản phẩm được quy định rõ trên phiếu bảo hành. Đối với sản phẩm bảo hành điện tử, thời hạn bảo hành được tính từ thời điểm kích hoạt bảo hành điện tử.</p>
+                <h3>2. Phương thức đổi trả hàng:</h3>
 
-                <p style="text-align:justify"><strong>III. TRUNG TÂM BẢO HÀNH:</strong></p>
+                <p>Trong thời gian còn hiệu lực đổi trả hàng, Quý khách vui lòng thực hiện các bước sau để được đổi trả hàng:</p>
 
-                <p style="text-align:justify">Thông tin của trung tâm bảo hành sẽ được ghi trong phiếu bảo hành kèm theo sản phẩm. Quý khách vui lòng liên hệ trực tiếp với trung tâm bảo hành có trên phiếu bảo hành.</p>
+                <p><strong>- Bước 1: </strong>Liên hệ trực tiếp với nhân viên Tư vấn bán hàng qua Tổng đài: <strong>(028) 7108 8889</strong> để được hỗ trợ kịp thời.</p>
 
-                <p style="text-align:justify">Trong trường hợp sản phẩm được phân phối trực tiếp từ các Đại lý, quý khách vui lòng trực tiếp liên hệ với đại lý đó để được hỗ trợ bảo hành trong thời gian nhanh nhất. Mọi thông tin của đại lý được ghi trên phiếu biên nhận giao hàng được đính kèm trong thùng hàng.</p>
+                <p><strong>- Bước 2: </strong>Chụp và gửi hình ảnh sản phẩm để xác nhận tình trạng hàng hoá.</p>
 
-                <p style="text-align:justify">Nếu quý khách gặp khó khăn trong việc liên hệ trung tâm bảo hành, xin quý khách vui lòng liên hệ bộ phận Chăm sóc khách hàng theo tổng đài&nbsp;<strong>(028)&nbsp;7108 8889</strong></p>
+                <p><strong>- Bước 3: </strong>Sau khi yêu cầu đổi trả hàng được chấp thuận, quý khách vui lòng đóng gói cẩn thận và gửi qua đường bưu điện hoặc phương tiện vận chuyển khác về cho chúng tôi theo địa chỉ:</p>
 
-                <p style="text-align:justify">Trong trường hợp quý khách ở quá xa trung tâm bảo hành hoặc gặp các vấn đề bất tiện không thể đến trung tâm bảo hành trực tiếp, quý khách có thể gửi sản phẩm về Japana.vn, chúng tôi sẽ hỗ trợ gửi sản phẩm đi bảo hành giúp quý khách..</p>
+                <p>+ Người nhận: Siêu thị Nhật Bản Japana.vn</p>
+
+                <p>+ Địa chỉ: Tòa nhà Trường Thịnh Group, Số 76 Nguyễn Háo Vĩnh, P. Tân Quý, Q. Tân Phú, TP. HCM.</p>
+
+                <p><strong>- Bước 4: </strong>Quý khách vui lòng đóng gói bao bì cẩn thận, tránh trầy xước, hỏng bể, bong tróc hay bám bẩn so với lúc xác nhận chấp thuận đổi trả lại hàng.</p>
+
+                <p><strong>* LƯU Ý: </strong>Nếu sản phẩm gửi trả về bị hỏng, bể, trầy xước, bong tróc, bám bẩn,... có thay đổi so với thời điểm xác nhận chấp thuận đổi trả lại hàng, chúng tôi có quyền từ chối nhận đổi trả.</p>
+
+                <h3>3. Chính sách hoàn tiền:</h3>
+
+                <p>Siêu thị Nhật Bản Japana.vn <strong>cam kết hoàn tiền 200% </strong>nếu sản phẩm kém chất lượng, không chính hãng.</p>
+
+                <p>Ngay sau khi đơn hàng huỷ trả khách hàng gửi về được chúng tôi xác nhận, <strong>trong vòng 07 ngày làm việc</strong>, Siêu thị Nhật Bản Japana.vn sẽ chuyển trả lại toàn bộ số tiền cho sản phẩm/đơn hàng mà quý khách đã thanh toán.</p>
             </div>
         </div>
 
@@ -131,6 +144,7 @@
 
 
 
+
   <div class="modal right fade" id="rightModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -138,13 +152,13 @@
           <div class="nav flex-column">
             <a href="#"                 class=" content-hover-border nav-item nav-link"> Japana Việt Nam</a>
             <a href="#"                 class="active-cs content-hover-border nav-item nav-link"> Chăm sóc khách hàng</a>
-            <a href="{{url('/')}}"      class=" content-hover nav-item nav-link">Chính sách vận chuyển</a>
+            <a href="{{url('/')}}"      class="  content-hover nav-item nav-link">Chính sách vận chuyển</a>
             <a href="{{url('/dkgd')}}"  class=" content-hover nav-item nav-link">Điều khoản giao dịch</a>
             <a href="{{url('/pttt')}}"  class=" content-hover nav-item nav-link">Phương thức thanh toán</a>
             <a href="{{url('/tggh')}}"  class=" content-hover nav-item nav-link">Thời gian giao hàng </a>
-            <a href="{{url('/csbh')}}"  class=" active-csv content-hover nav-item nav-link">Chính sách bảo hành </a>
-            <a href="{{url('/csbm')}}"  class=" content-hover nav-item nav-link">Chính sách bảo mật</a>
-            <a href="{{url('/csdt')}}"  class=" content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
+            <a href="{{url('/csbh')}}"  class="  content-hover nav-item nav-link">Chính sách bảo hành </a>
+            <a href="{{url('/csbm')}}"  class="  content-hover nav-item nav-link">Chính sách bảo mật </a>
+            <a href="{{url('/csdt')}}"  class="active-csv content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
             <a href="{{url('/hdmh')}}"  class="  content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
             <a href="{{url('/qlv')}}"  class="  content-hover nav-item nav-link">Quyền lời VIP </a>
             <a href="{{url('/qdbh')}}"  class="  content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>

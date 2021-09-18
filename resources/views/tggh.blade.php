@@ -39,11 +39,11 @@
         <div class="col-lg-4 col-md-5 sliderbar  ">
           <div class="card  w-75  ">
             <div class="list-group ">
-              <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
-              <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
-              <a href="{{url('/')}}" class="content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
-              <a href="{{url('/dkgd')}}" class=" content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
-              <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
+              <a href="#"                class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
+              <a href="#"                class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
+              <a href="{{url('/')}}"     class="content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
+              <a href="{{url('/dkgd')}}" class="content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
+              <a href="{{url('/pttt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
               <a href="{{url('/tggh')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
               <a href="{{url('/csbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
               <a href="{{url('/csbm')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo mật </a>
@@ -77,7 +77,7 @@
 
                 <h3 style="text-align:justify"><strong>Khi các sản phẩm của Japana đang ở Nhật Bản:</strong></h3>
 
-                <h4 style="text-align:justify"><img alt="THỜI GIAN GIAO HÀNG" class="card-img" style="width:100%"  src="https://japana.vn/uploads/detail/2019/06/images/2.jpeg"
+                <h4 style="text-align:justify"><img alt="THỜI GIAN GIAO HÀNG" class="card-img" style="width:100%"  src="https://japana.vn/uploads/detail/2019/06/images/2.jpeg"></h4>
                 <h3 style="text-align: justify;"><strong>Vì sao các sản phẩm của&nbsp;Siêu Thị Nhật Bản Japana&nbsp;đang ở Nhật Bản?</strong></h3>
 
                 <p style="text-align:justify"><strong><a href="https://japana.vn" style="line-height: 20.8px;">Japana.vn</a></strong>&nbsp;là website bán hàng Nhật Bản trực tuyến, các sản phẩm được đăng tải trên website Japana do Văn Phòng đại diện của công ty&nbsp;Japana Việt nam tại Nhật Bản và/hoặc do các nhà cung cấp&nbsp;nhập khẩu trực tiếp từ Nhật Bản&nbsp;về Việt Nam. Tuy nhiên, vì là ngành hàng tiêu dùng có nhiều sản phẩm, nên có một số sản phẩm&nbsp;theo quy định hiện hành của Japana,&nbsp;sau khi Quý khách hàng đặt mua chúng tôi mới nhập về, vì vậy thời gian giao hàng lâu hơn hàng đã có tại Việt Nam khoản 10 ngày. Trong thời gian tới chúng tôi sẽ cố gắng khắc phục vấn đề này.</p>
@@ -115,25 +115,25 @@
 
 
 
-
   <div class="modal right fade" id="rightModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body">
           <div class="nav flex-column">
-            <a href="#"  class=" content-hover nav-item nav-link"> Japana Việt Nam</a>
-            <a href="#"  class="active-csv content-hover nav-item nav-link"> Chăm sóc khách hàng</a>
-            <a href="#"  class=" content-hover nav-item nav-link">Chính sách vận chuyển</a>
-            <a href="#"  class=" content-hover nav-item nav-link">Điều khoản giao dịch</a>
-            <a href="#"  class=" content-hover nav-item nav-link">Phương thức thanh toán</a>
-            <a href="#"  class=" content-hover nav-item nav-link">Thời gian giao hàng </a>
-            <a href="#"  class=" content-hover nav-item nav-link">Chính sách bảo hành </a>
-            <a href="#"  class=" content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
-            <a href="#"  class="  content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
-            <a href="#"  class="  content-hover nav-item nav-link">Quyền lời VIP </a>
-            <a href="#"  class="  content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>
-            <a href="#"  class="  content-hover nav-item nav-link">Câu hỏi thương gặp </a>
-            <a href="#"  class="  content-hover nav-item nav-link"> Liên hệ</a>
+            <a href="#"                 class=" content-hover-border nav-item nav-link"> Japana Việt Nam</a>
+            <a href="#"                 class="active-cs content-hover nav-item nav-link"> Chăm sóc khách hàng</a>
+            <a href="{{url('/')}}"      class="  content-hover nav-item nav-link">Chính sách vận chuyển</a>
+            <a href="{{url('/dkgd')}}"  class=" content-hover nav-item nav-link">Điều khoản giao dịch</a>
+            <a href="{{url('/pttt')}}"  class="content-hover nav-item nav-link">Phương thức thanh toán</a>
+            <a href="{{url('/tggh')}}"  class="active-csv content-hover nav-item nav-link">Thời gian giao hàng </a>
+            <a href="{{url('/csbh')}}"  class="  content-hover nav-item nav-link">Chính sách bảo hành </a>
+            <a href="{{url('/csbm')}}"  class="  content-hover nav-item nav-link">Chính sách bảo mật </a>
+            <a href="{{url('/csdt')}}"  class=" content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
+            <a href="{{url('/hdmh')}}"  class="  content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
+            <a href="{{url('/qlv')}}"   class="  content-hover nav-item nav-link">Quyền lời VIP </a>
+            <a href="{{url('/qdbh')}}"  class="  content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>
+            <a href="{{url('/chtg')}}"  class="  content-hover nav-item nav-link">Câu hỏi thương gặp </a>
+            <a href="#"                 class="  content-hover-border nav-item nav-link"> Liên hệ</a>
           </div>
         </div>
         <div class="modal-footer ">
@@ -142,7 +142,6 @@
       </div>
     </div>
   </div>
-
 
 
 

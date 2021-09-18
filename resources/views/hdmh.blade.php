@@ -44,11 +44,11 @@
               <a href="{{url('/')}}" class="content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
               <a href="{{url('/dkgd')}}" class=" content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
               <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
-              <a href="{{url('/tggh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
-              <a href="{{url('/csbh')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
+              <a href="{{url('/tggh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
+              <a href="{{url('/csbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
               <a href="{{url('/csbm')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo mật </a>
               <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
-              <a href="{{url('/hdmh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
+              <a href="{{url('/hdmh')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
               <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quyền lời VIP </a>
               <a href="{{url('/qdbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
               <a href="{{url('/chtg')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Câu hỏi thương gặp </a>
@@ -67,44 +67,59 @@
         </div>
         <!--Phan noi dung cua trang Chính Sách Vận Chuyển-->
         <div class="static-detail">
-            <h3 class="title">Chính sách bảo hành</h3>
+            <h3 class="title">Hướng dẫn mua hàng</h3>
             <div class="detail-static">
-                <p style="text-align:justify"><strong>I. ĐIỀU KIỆN BẢO HÀNH:</strong></p>
+                <p>Quý khách có thể đặt mua hàng trực tuyến tại&nbsp;website <a href="https://japana.vn">Japana.vn</a> thông qua các bước đơn giản sau</p>
 
-                <p style="text-align:justify">1. Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau:</p>
+                <h3><strong>1. Tìm kiếm sản phẩm:</strong></h3>
 
-                <p style="text-align:justify">- Sản phẩm bị lỗi kỹ thuật do nhà sản xuất</p>
+                <p>Qúy khách có thể tìm sản phẩm theo&nbsp;3 cách:&nbsp;</p>
 
-                <p style="text-align:justify">- Còn trong thời hạn bảo hành</p>
+                <p>a. Gõ tên sản phẩm vào thanh tìm kiếm</p>
 
-                <p style="text-align:justify">- Còn giữ hóa đơn mua hàng Siêu Thị Nhật Bản JAPANA</p>
+                <p>b. Tìm theo danh mục</p>
 
-                <p style="text-align:justify">- Phiếu bảo hành phải còn nguyên vẹn, không chấp vá, bôi xóa, sửa chữa.</p>
+                <p>c. Tìm theo các sản phẩm mới nhất, bán chạy hoặc danh mục phổ biến trên từng ngành hàng</p>
 
-                <p style="text-align:justify">- Phiếu bảo hành đầy đủ thông tin: kiểu máy, số seri, ngày sản xuất, tên khách hàng sử dụng, địa chỉ, ngày mua (đối với các sản phẩm không áp dụng Bảo hành điện tử)</p>
+                <h3><strong>2. Thêm sản phẩm vào giỏ hàng:</strong></h3>
 
-                <p style="text-align:justify">- Tem bảo hành (và tem niêm phong) của nhà sản xuất trên sản phẩm còn nguyên vẹn.</p>
+                <p>Khi đã tìm được sản phẩm mong muốn, quý khách vui lòng bấm vào hình hoặc tên sản phẩm để vào được trang thông tin chi tiết của sản phẩm, sau đó:</p>
 
-                <p style="text-align:justify">2. Những trường hợp không được bảo hành hoặc phát sinh phí bảo hành:</p>
+                <p>a. Kiểm tra thông tin sản phẩm: giá, thông tin khuyến mãi.&nbsp;</p>
 
-                <p style="text-align:justify">- Vi phạm một trong những điều kiện bảo hành miễn phí ở mục 1.<br>
-                - Số series, model sản phẩm không khớp với Phiếu bảo hành.<br>
-                - Khách hàng tự ý can thiệp sửa chữa sản phẩm hoặc sửa chữa tại những trung tâm bảo hành không được sự ủy nhiệm của Hãng.<br>
-                - Sản phẩm bị hư hỏng do lỗi người sử dụng, và lỗi hư không nằm trong phạm vi bảo hành của nhà sản xuất</p>
+                <p>b. Chọn số lượng mong muốn.&nbsp;</p>
 
-                <p style="text-align:justify"><strong>II. THỜI HẠN BẢO HÀNH:</strong></p>
+                <p>c. Thêm sản phẩm vào giỏ hàng.</p>
 
-                <p style="text-align:justify">Thời hạn bảo hành được tính kể từ ngày mua hàng hoặc kể từ ngày sản xuất tùy thuộc từng loại sản phẩm được quy định rõ trên phiếu bảo hành. Đối với sản phẩm bảo hành điện tử, thời hạn bảo hành được tính từ thời điểm kích hoạt bảo hành điện tử.</p>
+                <h3><strong>3. Kiểm tra giỏ hàng:</strong></h3>
 
-                <p style="text-align:justify"><strong>III. TRUNG TÂM BẢO HÀNH:</strong></p>
+                <p>Trong giỏ hàng thể hiện đầy đủ thông tin số lượng sản phẩm và tổng giá trị tiền hàng. Quý khách vui lòng kiểm tra đúng sản phẩm, số lượng và giá trị tiền hàng.&nbsp;</p>
 
-                <p style="text-align:justify">Thông tin của trung tâm bảo hành sẽ được ghi trong phiếu bảo hành kèm theo sản phẩm. Quý khách vui lòng liên hệ trực tiếp với trung tâm bảo hành có trên phiếu bảo hành.</p>
+                <p>Tại giỏ hàng, Quý khách có thể chọn mua thêm sản phẩm khác hoặc chọn huỷ một sản phẩm bất kỳ.</p>
 
-                <p style="text-align:justify">Trong trường hợp sản phẩm được phân phối trực tiếp từ các Đại lý, quý khách vui lòng trực tiếp liên hệ với đại lý đó để được hỗ trợ bảo hành trong thời gian nhanh nhất. Mọi thông tin của đại lý được ghi trên phiếu biên nhận giao hàng được đính kèm trong thùng hàng.</p>
+                <h3><strong>4. Điền thông tin địa chỉ giao nhận hàng:</strong></h3>
 
-                <p style="text-align:justify">Nếu quý khách gặp khó khăn trong việc liên hệ trung tâm bảo hành, xin quý khách vui lòng liên hệ bộ phận Chăm sóc khách hàng theo tổng đài&nbsp;<strong>(028)&nbsp;7108 8889</strong></p>
+                <p>Quý khách phải điền đầy đủ thông tin của người mua và nhận hàng, Chúng tôi&nbsp;cam kết sẽ giữ bí mật thông tin cá nhân của quý khách.</p>
 
-                <p style="text-align:justify">Trong trường hợp quý khách ở quá xa trung tâm bảo hành hoặc gặp các vấn đề bất tiện không thể đến trung tâm bảo hành trực tiếp, quý khách có thể gửi sản phẩm về Japana.vn, chúng tôi sẽ hỗ trợ gửi sản phẩm đi bảo hành giúp quý khách..</p>
+                <p>Trên cơ sở thông tin quý khách cung cấp, <strong>Siêu Thị Nhật Bản Japana.vn</strong> sẽ tiến hành các thủ tục còn lại để giao hàng</p>
+
+                <h3><strong>5. Phương thức thanh toán:</strong></h3>
+
+                <p>Hiện tại&nbsp;<strong>Siêu Thị Nhật Bản Japana.vn</strong> có các&nbsp;hình thức thanh toán cho khách hàng lực chọn:</p>
+
+                <p>- Thanh toán khi nhận hàng (COD) - Áp dụng toàn quốc.</p>
+
+                <p>- Thanh toán trực tiếp tại Văn phòng đại diện Công ty CP Japana Việt Nam</p>
+
+                <p>Nếu các thông tin trên đã chính xác, quý khách&nbsp;vui lòng&nbsp;bấm "Đặt&nbsp;Mua", hệ thống sẽ bắt đầu tiến hành tạo đơn hàng dựa trên các thông tin quý khách đã đăng ký.</p>
+
+                <h3><strong>6. Kiểm tra và xác nhận đơn hàng:</strong></h3>
+
+                <p>Quý khách có thể vào email của mình&nbsp;để nhận thư xác nhận đặt hàng</p>
+
+                <h3><strong>7. Hoàn tất đơn hàng:</strong></h3>
+
+                <p>Sau khi đơn hàng đã được xác nhận bằng email, bộ phận chăm sóc khách hàng của <strong>Siêu Thị Nhật Bản Japana.vn&nbsp;</strong>sẽ gọi điện trực tiếp cho quý khách hàng thông qua số điện thoại mà quý khách hàng đã cung cấp để xác nhận lại&nbsp;một lần nữa về đơn hàng.</p>
             </div>
         </div>
 
@@ -131,6 +146,7 @@
 
 
 
+
   <div class="modal right fade" id="rightModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -138,15 +154,15 @@
           <div class="nav flex-column">
             <a href="#"                 class=" content-hover-border nav-item nav-link"> Japana Việt Nam</a>
             <a href="#"                 class="active-cs content-hover-border nav-item nav-link"> Chăm sóc khách hàng</a>
-            <a href="{{url('/')}}"      class=" content-hover nav-item nav-link">Chính sách vận chuyển</a>
+            <a href="{{url('/')}}"      class="  content-hover nav-item nav-link">Chính sách vận chuyển</a>
             <a href="{{url('/dkgd')}}"  class=" content-hover nav-item nav-link">Điều khoản giao dịch</a>
             <a href="{{url('/pttt')}}"  class=" content-hover nav-item nav-link">Phương thức thanh toán</a>
             <a href="{{url('/tggh')}}"  class=" content-hover nav-item nav-link">Thời gian giao hàng </a>
-            <a href="{{url('/csbh')}}"  class=" active-csv content-hover nav-item nav-link">Chính sách bảo hành </a>
-            <a href="{{url('/csbm')}}"  class=" content-hover nav-item nav-link">Chính sách bảo mật</a>
+            <a href="{{url('/csbh')}}"  class="  content-hover nav-item nav-link">Chính sách bảo hành </a>
+            <a href="{{url('/csbm')}}"  class="  content-hover nav-item nav-link">Chính sách bảo mật </a>
             <a href="{{url('/csdt')}}"  class=" content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
-            <a href="{{url('/hdmh')}}"  class="  content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
-            <a href="{{url('/qlv')}}"  class="  content-hover nav-item nav-link">Quyền lời VIP </a>
+            <a href="{{url('/hdmh')}}"  class="active-csv content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
+            <a href="{{url('/qlv')}}"   class="  content-hover nav-item nav-link">Quyền lời VIP </a>
             <a href="{{url('/qdbh')}}"  class="  content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>
             <a href="{{url('/chtg')}}"  class="  content-hover nav-item nav-link">Câu hỏi thương gặp </a>
             <a href="#"                 class="  content-hover-border nav-item nav-link"> Liên hệ</a>
