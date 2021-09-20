@@ -31,9 +31,12 @@ a:hover, a:focus {
 ::-ms-input-placeholder {
     color: #999 !important;
 }
-input.form-control:focus {
-    border-color: #fff;
-    box-shadow: none;
+
+/* KẾT */
+
+/* SHOP SIDEBAR */
+.category-page .shop-sidebar{
+    padding-right: 0;
 }
 /* KẾT */
 
@@ -96,6 +99,11 @@ input.form-control:focus {
     font-size: 13px;
     border-color: #ced4da;
     height: 38px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+}
+.widget-search input.form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
 }
 .widget-search .search-icon{
     width: 27px;
@@ -164,6 +172,11 @@ input.form-control:focus {
 .scrollbar{
     max-height: 320px;
     overflow-y: scroll;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
 }
 .scrollbar:hover::-webkit-scrollbar {
     display: inline;
@@ -196,9 +209,7 @@ input.form-control:focus {
 .price-range-slider .range-bar{
     border: none;
     background: #DEE5E9;
-    height: 6px;
-    width: 96%;
-    margin-left: 8px;   
+    height: 6px;  
     margin-bottom: 20px;
 }
 .price-range-slider .range-bar .ui-slider-range {
@@ -221,9 +232,135 @@ input.form-control:focus {
     border: none !important;
 }
     /* hiển thị giá */
+.widget-price{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
 .widget-price input{
     background: #fff !important;
     cursor: not-allowed;
     font-size: 13px;
 }
+.widget-price .title-range{
+    margin-bottom: 10px;
+}
+.widget-price .box-input{
+    position: relative;
+}
+.widget-price .box-input span{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    color: #8998AC;
+}
+.widget-price .form-group.col-6.phai{
+    padding-left: 5px;
+}
+.widget-price .form-group.col-6.trai{
+    padding-right: 5px;
+}
+    /* button Áp dụng */
+.widget .btn-price {
+    width: 100%;
+    height: 34px;
+    border-radius: 17px;
+    border: 1px solid #BB0029;
+    background-color: #BB0029;
+    color: #FFFFFF;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Bộ lọc sản phẩm */
+.filter-cate {
+    background: #fff;
+}
+.filter-cate ul {
+    padding-inline-start: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    height: 46px;
+}
+.filter-cate ul li a.active {
+    color: #BB0029;
+}
+.filter-cate ul li a {
+    color: #333942;
+}
 /* KẾT */
+
+
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 992px) {
+    .category-page .shop-sidebar{
+        padding: 0;
+    }
+    .widget{
+        box-shadow: none;
+        border: none;
+    }
+    .widget.danhmuc{
+        display: none;
+    }
+    .widget .widget-search{
+        display: none;
+    }
+    #breadcrumbs{
+        display: none;
+    }
+    .checkmark {
+        right: 5px;
+        left: auto;
+    }
+    .check-custom{
+        padding: 10px 5px 0px 5px;
+        margin: 0;
+        
+    }
+    .check-custom:after{
+        border-bottom: 1px solid rgba(0,0,0,0.125);
+        content: "";
+        display: block;
+        margin-top: 10px;
+    }
+    .check-custom .count-item{
+        display: none;
+    }
+    .widget .btn-price{
+        display: none;
+    }
+    .widget {
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .widget .box-input {
+        margin-bottom: 8px;
+    }
+    .form-group{
+        margin-bottom: 0;
+    }
+    .filter-cate{
+        
+        border-bottom: 1px solid #e3e3e3;
+        top: 0;
+        position: -webkit-sticky;
+        position: sticky;
+        z-index: 1;
+    }
+}
+/* KẾT */
+
