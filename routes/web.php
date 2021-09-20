@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('khuyenmai');
+});
+
+Route::get('/gio-hang', function () {
+    return view('giohang');
+});
+
+Route::get('/thanh-toan', function () {
+    return view('thanhtoan ');
 });
