@@ -67,7 +67,7 @@
         </div>
         <!--Phan noi dung cua trang Chính Sách Vận Chuyển-->
         <div class="static-detail">
-          <h3 class="title"><strong>Chính sách vận chuyển</strong> </h3>
+          <h3 class="title">Chính sách vận chuyển </h3>
           <div class="detail-static">
                 <h2><strong>CHÍNH SÁCH VẬN CHUYỂN VÀ PHÍ VẬN CHUYỂN TRONG DỊCH COVID-19</strong></h2>
                 <p><em>Trước diễn biến phức tạp của dịch COVID-19 tại TP. Hồ Chí Minh và một số tỉnh thành, JAPANA cập nhật biểu phí vận chuyển theo khu vực và thời gian giao nhận hàng như sau:</em></p>
