@@ -132,6 +132,8 @@ body{
   }
   /*phan kết thúc css sliderbar*/
 
+
+  /*phan mo css cua content**/
   .static-detail .title {
       text-transform: uppercase;
       font-family: 'Roboto',sans-serif;
@@ -189,6 +191,8 @@ body{
 
   }
 
+
+  /*phan giu mau khi chon vao dương link*/
   .active-cs{
     background-color:#bb0029;
     color:white;
