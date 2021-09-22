@@ -44,24 +44,20 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">
+                  www.facebook.com/japana.sieuthinhat  <i class="fab fa-facebook-f"></i></span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">
+                  (028) 7108 8889 <i class="fas fa-phone-alt"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#">Đăng ký</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link gach" href="#">  Đăng nhập</a>
               </li>
+
             </ul>
           </div>
         </nav>
@@ -79,7 +75,7 @@
 
           </div>
           <div class="cate-menu" id="main-menu">
-            <p class="title-cate" style="background: #a70025;"> Danh mục sản phẩm <a href="#sub-menu" data-toggle="collapse" data-parent="#main-menu" class="fas fa-bars"></a></p>
+            <p class="title-cate"> Danh mục sản phẩm <a href="#sub-menu" data-toggle="collapse" data-parent="#main-menu" class="fas fa-bars"></a></p>
             <div class="collapse list-group-menu" id="sub-menu">
               <li class="has-sub">
                 <a href="#" title="Sản Phẩm Bán Chạy">
@@ -238,7 +234,7 @@
     </a>
     <div class="top-header">
       <div class="container">
-        <div class="d-flex justify-content-between  align-items-center">
+        <div class="d-flex justify-content-between  align-items-center pb-2">
           <div class="icon-nav">
             <a href="#>" data-trigger="navbar_main" class="fas fa-bars"></a>
 
