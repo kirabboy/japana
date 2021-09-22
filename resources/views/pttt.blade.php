@@ -148,8 +148,8 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="nav flex-column">
-            <a href="#"                 class=" content-hover-border nav-item nav-link"> Japana Việt Nam</a>
-            <a href="#"                 class="active-cs content-hover-border nav-item nav-link"> Chăm sóc khách hàng</a>
+            <a href="#"                 class=" content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
+            <a href="#"                 class="active-cs content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
             <a href="{{url('/')}}"      class="  content-hover nav-item nav-link">Chính sách vận chuyển</a>
             <a href="{{url('/dkgd')}}"  class=" content-hover nav-item nav-link">Điều khoản giao dịch</a>
             <a href="{{url('/pttt')}}"  class="active-csv content-hover nav-item nav-link">Phương thức thanh toán</a>
@@ -161,7 +161,7 @@
             <a href="{{url('/qlv')}}"  class="  content-hover nav-item nav-link">Quyền lời VIP </a>
             <a href="{{url('/qdbh')}}"  class="  content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>
             <a href="{{url('/chtg')}}"  class="  content-hover nav-item nav-link">Câu hỏi thương gặp </a>
-            <a href="#"                 class="  content-hover-border nav-item nav-link"> Liên hệ</a>
+            <a href="#"                 class="  content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Liên hệ</a>
           </div>
         </div>
         <div class="modal-footer ">
