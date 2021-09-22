@@ -27,7 +27,7 @@
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Chính Sách Vận Chuyển</a>
+        <a href="# " class="cs">/Thời Gian Giao hàng</a>
       </div>
     </div>
   </section>

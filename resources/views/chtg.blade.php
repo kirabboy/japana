@@ -15,19 +15,14 @@
   <!--LINK FILE CSS -->
     <link rel="stylesheet" href="public/css/japana.css">
 </head>
-<style>
 
-
-
-/**/
-</style>
 
 <body>
   <section class="navigation shadow-bottom">
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Chính Sách Vận Chuyển</a>
+        <a href="# " class="cs">/Câu Hỏi Thường Gặp</a>
       </div>
     </div>
   </section>
@@ -48,10 +43,10 @@
               <a href="{{url('/csbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
               <a href="{{url('/csbm')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo mật </a>
               <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
-              <a href="{{url('/hdmh')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
+              <a href="{{url('/hdmh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
               <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quyền lời VIP </a>
               <a href="{{url('/qdbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
-              <a href="{{url('/chtg')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Câu hỏi thương gặp </a>
+              <a href="{{url('/chtg')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Câu hỏi thương gặp </a>
               <a href="{{url('/lh')}}" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Liên hệ</a>
             </div>
           </div>

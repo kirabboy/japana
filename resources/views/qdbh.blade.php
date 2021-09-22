@@ -27,7 +27,7 @@
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Chính Sách Vận Chuyển</a>
+        <a href="# " class="cs">/Quy Định Bán Hàng Trên Website japana.vn</a>
       </div>
     </div>
   </section>
@@ -47,10 +47,10 @@
               <a href="{{url('/tggh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
               <a href="{{url('/csbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
               <a href="{{url('/csbm')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo mật </a>
-              <a href="{{url('/csdt')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
+              <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
               <a href="{{url('/hdmh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
               <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quyền lời VIP </a>
-              <a href="{{url('/qdbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
+              <a href="{{url('/qdbh')}}" class="active-csv  content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
               <a href="{{url('/chtg')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Câu hỏi thương gặp </a>
               <a href="{{url('/lh')}}" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Liên hệ</a>
             </div>
@@ -255,7 +255,7 @@
             <a href="{{url('/csbm')}}"  class="  content-hover nav-item nav-link">Chính sách bảo mật </a>
             <a href="{{url('/csdt')}}"  class="content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
             <a href="{{url('/hdmh')}}"  class="  content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
-            <a href="{{url('/qlv')}}"  class="  content-hover nav-item nav-link">Quyền lời VIP </a>
+            <a href="{{url('/qlv')}}"   class="  content-hover nav-item nav-link">Quyền lời VIP </a>
             <a href="{{url('/qdbh')}}"  class="  active-csv content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>
             <a href="{{url('/chtg')}}"  class="  content-hover nav-item nav-link">Câu hỏi thương gặp </a>
             <a href="#"                 class="  content-hover-border nav-item nav-link"> Liên hệ</a>
