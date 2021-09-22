@@ -14,3 +14,4 @@ $(function() {
 	$( "#amount1" ).val( $( "#slider-range" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.") );
 	$( "#amount2" ).val( $( "#slider-range" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.") );
 });
+
