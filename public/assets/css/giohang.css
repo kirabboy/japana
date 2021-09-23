@@ -355,6 +355,16 @@ hr {
 }
 
 
+/* @keyframe fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
+
+
 /* ======Chưa có sản phẩm trong giỏ hàng======= */
 
 .no-product {

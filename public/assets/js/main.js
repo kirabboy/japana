@@ -1,10 +1,21 @@
- window.addEventListener("load", function() {
-     const slider = document.querySelector(".slider");
-     const sliderMain = document.querySelector(".slider-product");
-     const sliderItems = document.querySelectorAll(".slider-product-item");
-     const nextBtn = document.querySelector(".slide-btn-next");
-     const prevBtn = document.querySelector(".slide-btn-prev");
-     const slideritemWidth = sliderItems[0].offsetWidth;
-     console.log("slideritemWidth", slideritemWidth);
- });
- console.log("xin chào")
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    nav: true,
+    responsive: {
+        0: {
+            items: 2
+        },
+        540: {
+            items: 3
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+})

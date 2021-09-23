@@ -220,7 +220,7 @@
         height: 50px;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 8px;
     }
     
     .block-sale span {
@@ -230,7 +230,7 @@
         height: 50px;
         position: absolute;
         top: 14px;
-        right: -8px;
+        right: -1px;
     }
     
     .slider-product {
@@ -301,4 +301,46 @@
     .slide-btn-prev i:hover,
     .slide-btn-next i:hover {
         color: #bb0029;
+    }
+    /* OLW */
+    
+    .owl-controls .owl-buttons {
+        position: relative;
+    }
+    
+    .owl-controls .owl-prev {
+        position: absolute;
+        left: -40px;
+        bottom: 185px;
+        padding: 8px 17px;
+        background: #c66;
+        border-radius: 50px;
+        transition: .5s;
+    }
+    
+    .owl-controls .owl-next {
+        position: absolute;
+        right: -40px;
+        bottom: 185px;
+        padding: 8px 17px;
+        background: #c66;
+        border-radius: 50px;
+        transition: .5s;
+    }
+    
+    .owl-controls .owl-prev:after,
+    .owl-controls .owl-next:after {
+        content: '\f104';
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    .owl-controls .owl-next:after {
+        content: '\f105';
+    }
+    
+    .owl-controls .owl-prev:hover,
+    .owl-controls .owl-next:hover {
+        background: #000;
     }

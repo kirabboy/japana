@@ -164,7 +164,17 @@
 
 /* Mobide & Tablet */
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    /* .slider-product-item {
+        width: 50%;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 192px;
+        height: 348px;
+    }
+}
 
 
 /* Tablet */
@@ -174,4 +184,104 @@
 
 /* Mobile */
 
-@media (max-width: 739px) {}
+@media (max-width: 739px) {
+    .row {
+        margin-right: 0;
+    }
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 190px;
+        height: 348px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* .row {
+        margin-right: 0;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 184px;
+        height: 348px;
+    }
+}
+
+@media (max-width: 414px) {
+    /* .row {
+        margin-right: 0;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 217px;
+        height: 348px;
+    }
+}
+
+@media (max-width: 411px) {
+    /* .row {
+        margin-right: 0;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 214px;
+        height: 348px;
+    }
+}
+
+@media (max-width: 375px) {
+    /* .row {
+        margin-right: 0;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 198px;
+        height: 348px;
+    }
+}
+
+@media (max-width: 360px) {
+    /* .row {
+        margin-right: 0;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 190px;
+        height: 348px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* .row {
+        margin-right: 0;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 170px;
+        height: 348px;
+    }
+}
+
+@media (max-width: 280px) {
+    /* .row {
+        margin-right: 0;
+    } */
+    .slider-product-item {
+        position: relative;
+        background-color: #fff;
+        width: 150px;
+        height: 258px;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        top: 40%;
+        left: 16px;
+        border: 1px solid #ccc;
+    }
+}

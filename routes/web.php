@@ -24,3 +24,7 @@ Route::get('/gio-hang', function () {
 Route::get('/thanh-toan', function () {
     return view('thanhtoan ');
 });
+
+Route::get('/test', function () {
+    return view('test ');
+});
