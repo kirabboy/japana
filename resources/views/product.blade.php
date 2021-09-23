@@ -1,7 +1,14 @@
-@include('layout.header')
-<link rel="stylesheet" href="{{asset('css/flickity.css')}}">
-<link rel="stylesheet" href="{{asset('css/style.css')}}">
-<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+@extends('layout.master')
+
+@section('title', 'Chi tiết sản phẩm')
+
+@push('css')
+    <link rel="stylesheet" href="{{asset('css/flickity.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+@endpush
+
+    @section('content')
     <main>
         <section class="product__detail">
             <div class="container">
@@ -506,11 +513,11 @@
             </div>
         </section>
     </main>
+    @endsection
 
-@extends('layout.footer')
 
-@section('javascript')
-<script src="{{ asset('js/jquery.js') }}"></script>
-<script src="{{ asset('js/flickity.pkgd.min.js') }}"></script>
-<script src="{{ asset('js/main.js') }}"></script>
-@endsection
+@push('javascript')
+    <script src="{{ asset('js/jquery.js') }}"></script>
+    <script src="{{ asset('js/flickity.pkgd.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+@endpush

@@ -1,6 +1,14 @@
-@include('layout.header')
+@extends('layout.master')
+
+@section('title', 'Danh mục sản phẩm')
+
+@push('css')
 <link rel="stylesheet" href="{{ asset('css/danhmucsanpham.css') }}">
-<!-- breadcrumbs -->
+@endpush
+
+
+@section('content')
+    <!-- breadcrumbs -->
 <section id="breadcrumbs">
     <div class="page-title shop-page-title">
         <div class="page-title-inner container">
@@ -691,19 +699,10 @@
         </div>
     </div>
 </section>
+@endsection
 
-<!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
-<script>
 
-</script>
-<script src="{{ asset('js/boostrap/bootstrap.min.js') }}"></script>
-</body>
-
-</html>
-
-@extends('layout.footer')
-
-@section('javascript')
+@push('scripts')
     <script type='text/javascript'>
         function openSidebar() {
             document.getElementById("shopsidebar").style.zIndex = "1000";
@@ -716,4 +715,4 @@
         }
     </script>
 <script src="{{ asset('js/danhmucsanpham.js') }}"></script>
-@endsection
+@endpush

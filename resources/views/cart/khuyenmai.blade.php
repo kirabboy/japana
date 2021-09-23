@@ -1,7 +1,12 @@
-@include('layout.header')
+@extends('layout.master')
 
-<link rel="stylesheet" href="{{asset('css/khuyenmai.css')}}">
+@section('title', 'Sản phẩm khuyến mãi')
 
+@push('css')
+    <link rel="stylesheet" href="{{asset('css/khuyenmai.css')}}">
+@endpush
+
+    @section('content')
     <main>
         <div class="container-fruid">
             <!-- banner -->
@@ -811,12 +816,9 @@
             </div>
 
     </main>
+    @endsection
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-@extends('layout.footer')
-
-@section('javascript')
+@push('scripts')
     <script>
         window.addEventListener("load", function() {
             const slider = document.querySelector(".slider");
@@ -828,4 +830,4 @@
             console.log("slideritemWidth", slideritemWidth);
         });
     </script>
-@endsection
+@endpush

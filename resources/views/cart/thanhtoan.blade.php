@@ -1,9 +1,13 @@
+@extends('layout.master')
 
-@include('layout.header')
+@section('title', 'Thanh toán')
 
-<link rel="stylesheet" href="{{asset('css/thanhtoan.css')}}">
-<link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+@push('css')
+    <link rel="stylesheet" href="{{asset('css/thanhtoan.css')}}">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+@endpush
 
+    @section('content')
     <div class="container">
         <div class="row">
             <div class="col-xl-8 col-sm-12 col-12">
@@ -139,11 +143,9 @@
             </div>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-@extends('layout.footer')
+    @endsection
 
-@section('javascript')
+@push('scripts')
     <script>
         window.addEventListener("load", function() {
             const slider = document.querySelector(".slider");
@@ -155,4 +157,4 @@
             console.log("slideritemWidth", slideritemWidth);
         });
     </script>
-@endsection
+@endpush
