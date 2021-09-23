@@ -44,3 +44,27 @@ Route::get('/gio-hang', function () {
 Route::get('/thanh-toan', function () {
     return view('cart.thanhtoan');
 });
+
+//Route - Theo dõi đơn hàng
+Route::get('/theo-doi-don-hang', function () {
+    return view('order_tracking.theo-doi-don-hang_main-layout');
+});
+
+//Route - Đơn hàng sau khi tra cứu
+Route::get('/don-hang-sau-khi-tra-cuu', function () {
+    return view('order_tracking.don-hang-sau-khi-tra-cuu');
+});
+
+//Route - Liên hệ
+Route::get('/lien-he', function () {
+    return view('contact.lien-he');
+});
+
+//Route - Tài Khoản
+Route::get('/tai-khoan', function () {
+    return view('account.account');
+});
+
+Route::get('/quen-mat-khau', function () {
+    return view('account.quen-mat-khau');
+});
