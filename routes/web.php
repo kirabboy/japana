@@ -3,6 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PolicyController;
 use App\Http\Controllers\ProductCategoryController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,5 +30,8 @@ Route::get('/huong-dan-mua-hang', [PolicyController::class, 'hdmh'])->name('poli
 Route::get('/quyen-loi-vip', [PolicyController::class, 'qlv'])->name('policy.quyen-loi');
 Route::get('/quy-dinh-ban-hang', [PolicyController::class, 'qdbh'])->name('policy.quy-dinh');
 Route::get('/cau-hoi-thuong-gap', [PolicyController::class, 'chtg'])->name('policy.cau-hoi');
+
+Route::get('/', [HomeController::class, 'home']);
+
 
 
