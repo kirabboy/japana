@@ -1,8 +1,9 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PolicyController;
+use App\Http\Controllers\ProductCategoryController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,8 +16,7 @@ use App\Http\Controllers\PolicyController;
 */
 
 Route::get('/product', [ProductController::class, 'product']);
-
-
+Route::get('/danh-muc-san-pham', [ProductCategoryController::class, 'getdanhmucsanpham']);
 
 Route::get('/chinh-sach-van-chuyen', [PolicyController::class, 'csvc'])->name('policy.van-chuyen');
 Route::get('/dieu-khoan-giao-dich', [PolicyController::class, 'dkgd'])->name('policy.giao-dich');
