@@ -332,15 +332,15 @@ li {
         padding: 0;
         background-color: #f0f3f7;
     }
-    .top-header > .container {
+    /* .top-header > .container {
         height: 26px;
-    }
+    } */
     .time-top > .fas.fa-clock {
         padding-right: 5px;
     }
-    .item.item-custom {
+    /* .item.item-custom {
         padding-top: 17px;
-    }
+    } */
     .navbar.navbar-expand-lg {
         height: 100%;
     }

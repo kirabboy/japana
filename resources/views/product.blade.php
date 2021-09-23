@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/flickity.css')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Productc-Detail</title>
-</head>
-<body>
+@include('layout.header')
+<link rel="stylesheet" href="{{asset('css/flickity.css')}}">
+<link rel="stylesheet" href="{{asset('css/style.css')}}">
+<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     <main>
         <section class="product__detail">
             <div class="container">
@@ -515,8 +506,11 @@
             </div>
         </section>
     </main>
-    <script src="public/js/jquery.js"></script>
-    <script src="public/js/flickity.pkgd.min.js"></script>
-    <script src="public/js/main.js"></script>
-</body>
-</html>
+
+@extends('layout.footer')
+
+@section('javascript')
+<script src="{{ asset('js/jquery.js') }}"></script>
+<script src="{{ asset('js/flickity.pkgd.min.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+@endsection

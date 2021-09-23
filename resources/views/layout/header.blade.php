@@ -955,8 +955,6 @@
         </ul>
     </div>
 
-
-
     <script type="text/javascript">
         function darken_screen(yesno) {
             if (yesno == true) {

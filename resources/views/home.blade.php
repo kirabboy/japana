@@ -2593,41 +2593,41 @@
 @extends('layout.footer')
 
 @section('javascript')
-    <script type='text/javascript'>
-        $(document).ready(function() {
+<script type='text/javascript'>
+    $(document).ready(function() {
 
-            $('.items').slick({
-                infinite: true,
-                slidesToShow: 5,
-                slidesToScroll: 5
-            });
-            $('.items-brand').slick({
-                infinite: true,
-                slidesToShow: 6,
-                slidesToScroll: 1,
-
-
-                responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        speed: 1000,
-                        autoplay: true,
-                        autoplaySpeed: 2000,
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        infinite: true,
-                        dots: true
-                    }
-                }]
-            });
-            $('.items-blog').slick({
-                infinite: true,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-
-
-
-            });
+        $('.items').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 5
         });
-    </script>
+        $('.items-brand').slick({
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+
+
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    speed: 1000,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true
+                }
+            }]
+        });
+        $('.items-blog').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+
+
+
+        });
+    });
+</script>
 @endsection

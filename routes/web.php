@@ -33,5 +33,14 @@ Route::get('/cau-hoi-thuong-gap', [PolicyController::class, 'chtg'])->name('poli
 
 Route::get('/', [HomeController::class, 'home']);
 
+Route::get('/khuyen-mai', function () {
+    return view('cart.khuyenmai');
+});
 
+Route::get('/gio-hang', function () {
+    return view('cart.giohang');
+});
 
+Route::get('/thanh-toan', function () {
+    return view('cart.thanhtoan');
+});
