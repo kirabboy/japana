@@ -20,7 +20,6 @@ h1 {
     width: 270px;
     margin-top: 0;
     border: 1px solid #e3e3e3;
-    float: left;
     margin-top: 10px;
 }
 
@@ -103,7 +102,6 @@ h1 {
 .checkorder {
     background: #f1f1f1;
     width: 810px;
-    float: right;
     padding: 25px;
     margin-top: 10px;
 }
@@ -171,7 +169,6 @@ li a:hover {
 /* Content trang con */
 
 .static-detail {
-    float: right;
     width: 830px;
     padding: 20px;
     background: #f7f7f7;
@@ -286,6 +283,7 @@ textarea.form-control {
     text-align: center;
     border: 0;
     width: 100%;
+    cursor: pointer;
 }
 .btn-contact:hover {
     background: #fff;
@@ -482,64 +480,56 @@ textarea.form-control {
 
 
 
-
-
-
-
-
-
-
-.custom_modal {
-    width: 450px;
-    display: block;
-}
-.modal-body {
+/* -----------------------------------Trang Đăng Nhập - Đăng Ký----------------------------------- */
+.form-box-1 {
+    width: 500px;
     position: relative;
-    background-color: #fff;
+    margin: 6% auto;
+    background: #fff;
+    padding: 15px;
+    overflow: hidden;
     border: 1px solid #999;
-    border: 1px solid rgba(0,0,0,.2);
     border-radius: 6px;
     box-shadow: 0 3px 9px rgba(0,0,0,.5);
 }
-.nav-tabs{
-    border: 0;
-}
-
-
-.custom_modal .nav-tabs>li {
-    width: 50%;
-    background: #f5f3f3;
-    box-shadow: inset 2px -2px 5px 0 rgba(0, 0, 0, .1);
-}
-
-.custom_modal .nav-tabs>li.active>a, .custom_modal .nav-tabs>li.active>a:hover,.title-log {
-    font-size: 20px;
-    font-weight: 500;
-    color: #bb0029;
-    text-transform: uppercase;
-    text-align: center;
-}
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #555;
-    cursor: default;
-    background-color: #fff;
-    border: 0px solid #ddd;
-    border-bottom-color: transparent;
-}
-.nav>li>a {
+.form-box-2 {
+    width: 500px;
     position: relative;
-    display: block;
-    padding: 10px 15px;
+    margin: 6% auto;
+    background: #fff;
+    padding: 15px;
+    opacity: 0;
+    border: 1px solid #999;
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
 }
-.custom_modal .nav-tabs>li>a {
-    margin-bottom: 0;
-    border-radius: 0;
-    font-size: 20px;
+.button-box {
+    width: 300px;   
+    margin: 35px auto;
+    position: relative;
+    
+}
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 16px;
     font-weight: 500;
     color: #aaa;
     text-transform: uppercase;
     text-align: center;
     margin-right: 0;
+    color: #bb0029;
+}
+.input-group{
+    position: absolute;
+    width: 400px;
+}
+.box-input {
+    position: relative;
 }
 .icon-form {
     position: absolute;
@@ -547,18 +537,26 @@ textarea.form-control {
     left: 15px;
     color: #999;
 }
-
-.box-input {
-    position: relative;
-}
 .ipt-text {
     border-radius: 0;
     font-size: 16px;
     width: 400px;
-    padding-left: 40px;
-    
-    
+    padding-left: 40px; 
 }
+.btn-red {
+    background: #bb0029;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    padding: 17px 0;
+    padding-bottom: 14px;
+    border: 0;
+    border-radius: 0;
+    width: 400px;
+    cursor: pointer;
+}
+
 .box-check .check-custom input, .box-check2 .check-custom input {
     position: absolute;
     opacity: 0;
@@ -599,104 +597,6 @@ textarea.form-control {
     position: absolute;
     display: none;
 }
-.btn-red {
-    background: #bb0029;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center;
-    padding: 17px 0;
-    padding-bottom: 14px;
-    border: 0;
-    border-radius: 0;
-    width: 400px;
-    cursor: pointer;
-}
-
-
-
-
-.form-box {
-    width: 500px;
-    height: 700px;
-    position: relative;
-    margin: 6% auto;
-    background: #fff;
-    padding: 15px;
-    overflow: hidden;
-    border: 1px solid #999;
-    border-radius: 6px;
-    box-shadow: 0 3px 9px rgba(0,0,0,.5);
-}
-
-.input-group{
-    
-    position: absolute;
-    width: 450px;
-
-}
-.input-field{
-    width: 100%;
-    padding: 10px 0;
-    margin: 5px 0;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    border-bottom: 1px solid #999;
-    outline: none;
-    background: transparent;
-}
-
-.button-box {
-    width: 300px;
-    
-    margin: 35px auto;
-    position: relative;
-    
-}
-.toggle-btn {
-    padding: 10px 30px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-    position: relative;
-    
-    font-size: 16px;
-    font-weight: 500;
-    color: #aaa;
-    text-transform: uppercase;
-    text-align: center;
-    margin-right: 0;
-    color: #bb0029;
-}
-#btn{
-    top: 0;
-    left: 0;
-    position: absolute;
-    
-    height: 100%;
-    
-    border-radius: 10px;
-    transition: .5s;
-
-    width: 150px;
-    background: #f5f3f3;
-    box-shadow: inset 2px -2px 5px 0 rgba(0, 0, 0, .1);
-}
-
-
-.submit-btn{
-    width: 85%;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
-    border: 0;
-    outline: none;
-    border-radius: 30px;
-}
 .check-box{
     margin: 30px 10px 30px 0;
 }
@@ -705,15 +605,55 @@ span{
     font-size: 15px;
     bottom: 68px;
 }
+.title-log{
+    font-size: 20px;
+    font-weight: 500;
+    color: #bb0029;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.intro-log {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #999;
+}
+.link-return {
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: #999;
+    padding-top: 15px;
+}
+/* --------------------------Id for Javascript Custom-------------------------- */
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+    width: 150px;
+    background: #f5f3f3;
+    box-shadow: inset 2px -2px 5px 0 rgba(0, 0, 0, .1);
+}
 #login{
     left: 50px;
+}
+#size-form-1{
+    height: 400px;
+}
+#size-form-2{
+    height: 350px;
 }
 #register{
     left: 550px;
 }
 #forgot-password{
-    top:700px;
-    
+    left: 50px;
+    top: 50px;
 }
 
 

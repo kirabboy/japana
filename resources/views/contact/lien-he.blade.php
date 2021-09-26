@@ -20,6 +20,8 @@
 </head>
 
 <body>
+    <div class="row">
+        <div class="col-12">
 <div class="site-inner">
         <div class="content-sidebar-wrap">
             <main class="contact content">
@@ -42,6 +44,8 @@
                 </div>
             </main>
         </div>
+    </div>
+    </div>
     </div>
 </body>
 

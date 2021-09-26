@@ -67,7 +67,6 @@ Route::get('/tai-khoan', function () {
 });
 
 
-Route::get('/quen-mat-khau', function () {
-    return view('account/quen-mat-khau');
-});
+
+
 

@@ -18,7 +18,9 @@
 </head>
   <body>
   <div class="container">
-    <div class="check-order">
+    <div class="row">
+      <div class="col-lg-4 col-xl-3">
+      <div class="check-order">
     <ul>
 	    <li class="active">
 			<a href="#" title="title">
@@ -49,7 +51,11 @@
 		</li>
     </ul>
     </div>
-    <main class="checkorder content">
+      </div>
+
+
+      <div class="col-lg-8 col-xl-9">
+      <main class="checkorder content">
         <h3 class="title">THÔNG TIN ĐƠN HÀNG</h3>
         <form action="" method="get">
             <div class="write-order form-group">
@@ -58,6 +64,10 @@
             </div>
         </form>
     </main>
+      </div>
+    </div>
+    
+    
 </div>    
   </body>
 </html>
