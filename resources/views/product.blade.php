@@ -573,7 +573,6 @@
     </main>
     <script src="public/js/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="public/js/main.js"></script>
 </body>
 </html>
