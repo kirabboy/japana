@@ -659,7 +659,7 @@
         }
 
         function closeSidebar() {
-            document.getElementById("shopsidebar").style.zIndex = "0";
+            document.getElementById("shopsidebar").style.zIndex = "-1";
             document.body.style.overflow = "auto";
         }
     </script>
