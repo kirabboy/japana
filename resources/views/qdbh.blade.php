@@ -37,7 +37,7 @@
       <div class="row">
         <!--html của chuyện mục thông tin-->
         <div class="col-lg-4 col-md-5 sliderbar  ">
-          <div class="card  w-75  ">
+          <div class="card the w-75  ">
             <div class="list-group ">
               <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
               <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
@@ -61,7 +61,7 @@
         <div class="col-lg-8  col-md-7 col-12  align-content-center">
         <div class="btn-content-hidden text-right">
           <!--nut button chuyen muc an-->
-          <button type="button" class="content-hover btn title m-2" data-toggle="modal" data-target="#rightModal">
+          <button type="button" class="content-hover  btn an title m-2" data-toggle="modal" data-target="#rightModal">
             <i class="fas fa-angle-double-left"></i>
           </button>
         </div>
@@ -262,7 +262,7 @@
           </div>
         </div>
         <div class="modal-footer ">
-          <button type="button" class="btn  content-hover" data-dismiss="modal"><i class="fas fa-times"></i></button>
+          <button type="button" class="btn an  content-hover" data-dismiss="modal"><i class="fas fa-times"></i></button>
         </div>
       </div>
     </div>

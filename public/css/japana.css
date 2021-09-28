@@ -183,13 +183,6 @@ body{
     font-family: 'Roboto',sans-serif;
     color: #111;
   }
-  /*ẩn nút btn*/
-  .btn {
-      display: none;
-      background-color:white;
-      color: #333;
-
-  }
 
 
   /*phan giu mau khi chon vao dương link*/
@@ -202,17 +195,27 @@ body{
   }
 
 
+  /*ẩn nút btn*/
+  .an {
+    display: none;
+    background-color:white;
+    color: #333;
+
+}
 
 
   /*dùng để ẩn slidebar*/
   @media screen and ( max-width:767px){
   /*dùng để ẩn nút button cua slider*/
-  .btn
+
+  /*sua lai ten btn vi trung trong thu vien */
+  .an
   {
     display:inline;
 
   }
-  .card
+  /*sua lai ten card khonog nen de trung thu vien booostap*/
+  .the
   {
     display:none;
   }
