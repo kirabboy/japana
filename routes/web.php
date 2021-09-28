@@ -14,7 +14,7 @@ use App\Http\Controllers\ProductController;
 */
 //Route - Theo dõi đơn hàng
 Route::get('/theo-doi-don-hang', function () {
-    return view('order_tracking/theo-doi-don-hang_main-layout');
+    return view('order_tracking.theo-doi-don-hang_main-layout');
 });
 
 //Route - Chăm sóc khách hàng
@@ -68,6 +68,6 @@ Route::get('/tai-khoan', function () {
 
 
 Route::get('/quen-mat-khau', function () {
-    return view('account/quen-mat-khau');
+    return view('account.quen-mat-khau');
 });
 
