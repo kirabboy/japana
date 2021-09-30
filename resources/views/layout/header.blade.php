@@ -31,7 +31,7 @@
         <div class="d-flex flex-lg-row flex-md-row flex-column align-items-center ">
           <div class="logo-header ">
             <h1 title="Siêu thị Nhật Bản Japapa.vn" style="margin: 0;">
-              <a href="#" title="Siêu thị Nhật Bản Japana.vn">
+              <a href="{{url('/')}}" title="Siêu thị Nhật Bản Japana.vn">
                 <img src="https://japana.vn/uploads/system/1549872401-logo.svg" alt="Siêu thị Nhật Bản Japana.vn">
               </a>
             </h1>
@@ -51,8 +51,8 @@
             </div>
             <div class="menu-demuc d-flex justify-content-between">
               <div class="cate-menu" id="main-menu">
-                <a href="#">
-                  <p href="" class="title-cate"> Danh mục sản phẩm <i class="fas fa-bars"></i></p>
+                <a href="{{url('/danh-muc-san-pham')}}">
+                  <p  class="title-cate"> Danh mục sản phẩm <i class="fas fa-bars"></i></p>
                 </a>
                 <!-- <p class="title-cate"> Danh mục sản phẩm <a href="#sub-menu" data-toggle="collapse" data-parent="#main-menu" class="fas fa-bars" aria-expanded="false" aria-haspopup="true"></a></p> -->
                 <!-- <div class="collapse list-group-menu" id="sub-menu">
@@ -223,10 +223,10 @@
                   (028) 7108 8889 <i class="fas fa-phone-alt"></i></a>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#"> Đăng nhập</a>
+                <a class="nav-link" href="{{url('/tai-khoan')}}"> Đăng nhập</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link gach" href="#">Đăng ký</a>
+                <a class="nav-link gach" href="{{url('/tai-khoan')}}">Đăng ký</a>
               </li>
 
 
@@ -235,13 +235,13 @@
         </nav>
         <div class="item other-top item-follow-order">
           <div class="follow-order other">
-            <a rel="nofollow" href="#" title="Theo dõi đơn hàng">
+            <a rel="nofollow" href="{{url('/theo-doi-don-hang ')}}" title="Theo dõi đơn hàng">
               <i class="icon-all-new icon-follow icon-follow-header"></i>
               <span class="text-color-white">Theo dõi<br>đơn hàng</span>
             </a>
           </div>
           <div class="cart other">
-            <a rel="nofollow" href="#" title="Giỏ hàng">
+            <a rel="nofollow" href="{{url('/gio-hang')}}" title="Giỏ hàng">
               <i class="icon-all-new icon-cart icon-cart-header"></i>
               <span class="number-cart"><abbr class="count-giohang">0</abbr></span>
             </a>
@@ -263,7 +263,7 @@
   </header>
   <!-- menu-tablet-mobile -->
   <header class="header-tablet-mobile">
-    <a class="banner-header" href="#" title="Sức khỏe">
+    <a class="banner-header" href="{{url('/khuyen-mai')}}" title="Sức khỏe">
       <img src="https://japana.vn/uploads/banner/1629687032-topbar-new-mb.gif" alt="Sức khỏe">
     </a>
     <div class="top-header">
@@ -275,14 +275,14 @@
 
           </div>
           <div class="logo-nav">
-            <a rel="nofollow" href="#/" title="Siêu thị Nhật Bản Japana.vn">
+            <a rel="nofollow" href="{{url('/')}}" title="Siêu thị Nhật Bản Japana.vn">
               <img src="https://japana.vn/uploads/system/1549872401-logo.svg" alt="Siêu thị Nhật Bản Japana.vn">
             </a>
 
           </div>
           <div class="cart-nav">
 
-            <a class="number-cart" rel="nofollow" href="#" title="giỏ hàng">
+            <a class="number-cart" rel="nofollow" href="{{url('/gio-hang')}}" title="giỏ hàng">
               <i class="icon-2020 icon-cart-2020"></i>
               <span class="count-item count-giohang">0</span>
             </a>
@@ -856,9 +856,9 @@
           <div role="tabpanel" class="tab-pane " id="acc">
             <div class="box-item">
               <ul>
-                <li><a id="register-btn" href="#" title="title"><i class="fas fa-user"></i><span>Đăng ký tài khoản</span></a></li>
-                <li><a id="login-btn" href="#" title="title"><i class="fas fa-sign-in-alt"></i></i><span>Đăng nhập</span></a></li>
-                <li><a href="#" title="title"><i class="far fa-sticky-note"></i><span>Tra cứu đơn hàng</span></a></li>
+                <li><a id="register-btn" href="{{url('/tai-khoan')}}" title="title"><i class="fas fa-user"></i><span>Đăng ký tài khoản</span></a></li>
+                <li><a id="login-btn" href="{{url('/tai-khoan')}}" title="title"><i class="fas fa-sign-in-alt"></i></i><span>Đăng nhập</span></a></li>
+                <li><a href="{{url('/theo-doi-don-hang ')}}" title="title"><i class="far fa-sticky-note"></i><span>Tra cứu đơn hàng</span></a></li>
               </ul>
             </div>
           </div>
@@ -870,10 +870,10 @@
   </header>
   <div class="toolbar2 ">
     <ul class="d-flex justify-content-around  align-items-center">
-      <li><a id="home" href="https://japana.vn/" title="Trang chủ"><i class="icon-2020 icon-home-2020"></i><br><span>Trang chủ</span></a></li>
-      <li><a id="goidien" href="javascript:callme('tel:(028) 7108 8889')" title="phone"><i class="icon-2020 icon-phone-2020"></i><br><span>Gọi điện</span></a></li>
-      <li><a id="chatzalo" href="javascript:callme('https://zalo.me/1360579267495118428')" title="zalo"><i class="icon-2020 icon-zalo-2020"></i><br><span>Chat zalo</span></a></li>
-      <li><a id="chatfb" href="javascript:callme('https://www.messenger.com/t/japana.sieuthinhat')" title="facebook"><i class="icon-2020 icon-facebook-2020"></i><br><span>Chat facebook</span></a></li>
+      <li><a id="home" href="{{url('/')}}" title="Trang chủ"><i class="icon-2020 icon-home-2020"></i><br><span>Trang chủ</span></a></li>
+      <li><a id="goidien" href="{{url('/')}}" title="phone"><i class="icon-2020 icon-phone-2020"></i><br><span>Gọi điện</span></a></li>
+      <li><a id="chatzalo" href="{{url('/')}}" title="zalo"><i class="icon-2020 icon-zalo-2020"></i><br><span>Chat zalo</span></a></li>
+      <li><a id="chatfb" href="{{url('/')}}" title="facebook"><i class="icon-2020 icon-facebook-2020"></i><br><span>Chat facebook</span></a></li>
     </ul>
   </div>
 
