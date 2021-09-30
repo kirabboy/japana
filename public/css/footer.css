@@ -1,10 +1,70 @@
+.title-footer{
+         
+    font-size: 1.3rem;
+    
+    margin-bottom: 10px;
 
+     }
     .ship-f,
     .socials-footer,
     .bct-f {
         display: none;
     }
-
+    #button {
+        display: inline-block;
+        background-color: #FF9800;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        transition: background-color .3s, 
+          opacity .5s, visibility .5s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1000;
+      }
+  .fas.fa-chevron-up{
+       
+        
+        font-size: 2em;
+        line-height: 50px;
+        color: #fff;
+      }
+      #button:hover {
+        cursor: pointer;
+        background-color: #333;
+      }
+      #button:active {
+        background-color: #555;
+      }
+      #button.show {
+        opacity: 1;
+        visibility: visible;
+      }
+      
+      /* Styles for the content section */
+      
+     
+      @media (min-width: 500px) {
+        .content {
+          width: 43%;
+        }
+        #button {
+          margin: 30px;
+        }
+      }
+      .content h1 {
+        margin-bottom: -10px;
+        color: #03a9f4;
+        line-height: 1.5;
+      }
+      .content h3 {
+        font-style: italic;
+        color: #96a2a7;
+      }
     @media (max-width: 991px) {
 
         .middle-footer,
@@ -150,6 +210,27 @@
 
 
     @media (min-width: 1024px) {
+        .tikicon.icon-footer-zalo {
+            background-image: url(https://frontend.tikicdn.com/_desktop-next/static/img/sprite.png?v=100000000);
+            background-position: -203px -72px;
+            width: 32px;
+            height: 32px;
+        }
+     
+        .icon {
+            display: inline-block;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+        }
+        .a25-374f6b {
+            width: 120px;
+            height: 40px;
+            /* margin-top: .8rem; */
+            margin-right: .8rem;
+            object-fit: contain;
+        }
+      
         .socials-footer {
             display: none;
         }
@@ -234,11 +315,11 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     .fas.fa-phone-alt {
-        padding-right: 17px;
+        padding-right: 10px;
     }
 
     .socials-f {
@@ -252,7 +333,8 @@
 
     .site-footer {
         margin-top: 30px;
-        background: #f9f9f9;
+        background: #f2f3f4;
+        padding-top: 22px;
 
     }
 
