@@ -20,49 +20,12 @@
 <body>
 
   <!-- Pc -->
-  <header class="header-site">
-    <a href="#" title="Sức khỏe">
-      <img src="https://japana.vn/uploads/banner/1629687032-topbar-new-pc.gif?1631760537" alt="Sức khỏe" style="width:100%; height: auto;display:block">
-
-    </a>
-
-    <div class="top-header">
-
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="item item-custom d-flex ">
-            <div class="time-top">
-              <i class="fas fa-clock"></i>
-            </div>
-            <p id="working-time-header"> Giờ làm: 8h - 17h00 (T2 - CN) </p>
+  <header class="header-site" id="top">
+    <div id="button"> <i class="fas fa-chevron-up"></i></div>
 
 
-          </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  www.facebook.com/japana.sieuthinhat  <i class="fab fa-facebook-f"></i></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  (028) 7108 8889 <i class="fas fa-phone-alt"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Đăng ký</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link gach" href="#">  Đăng nhập</a>
-              </li>
-
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
+    <!-- Some content to fill up the page -->
+   
     <div class="bottom-header">
       <div class="container">
         <div class="d-flex flex-lg-row flex-md-row flex-column align-items-center ">
@@ -74,157 +37,228 @@
             </h1>
 
           </div>
-          <div class="cate-menu" id="main-menu">
-            <p class="title-cate"> Danh mục sản phẩm <a href="#sub-menu" data-toggle="collapse" data-parent="#main-menu" class="fas fa-bars"></a></p>
-            <div class="collapse list-group-menu" id="sub-menu">
-              <li class="has-sub">
-                <a href="#" title="Sản Phẩm Bán Chạy">
-                  <img src="https://japana.vn/uploads/category/1612510003-1557111695-asset-10.png" alt="Sản Phẩm Bán Chạy">
-                  <span>Sản Phẩm Bán Chạy </span>
-                </a>
 
-                </ul>
-              </li>
-              <li class="has-sub">
-                <a href="#" title="Collagen">
-                  <img src="https://japana.vn/uploads/category/1545300977-collagen.png" alt="Collagen">
-                  <span>Collagen <i class="fa fa-angle-right" aria-hidden="true"></i>
-                  </span>
-                </a>
-                <ul>
-                  <li><a href="#" title="Nước Uống Collagen">
-                      Nước Uống Collagen</a>
-                  </li>
-                  <li><a href="#" title="Collagen Dạng Bột - Thạch Ăn">
-                      Collagen Dạng Bột - Thạch Ăn</a>
-                  </li>
-                  <li><a href="#" title="Collagen Dạng Viên Uống">
-                      Collagen Dạng Viên Uống</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li class="has-sub">
-                <a href="https://japana.vn/thuc-pham-lam-dep/" title="Thực Phẩm Làm Đẹp">
-                  <img src="https://japana.vn/uploads/category/1536632955-icon2.png" alt="Thực Phẩm Làm Đẹp">
-                  <span>Thực Phẩm Làm Đẹp <i class="fa fa-angle-right" aria-hidden="true"></i>
-                  </span>
-                </a>
-                <ul>
-                  <li><a href="https://japana.vn/nuoc-uong-trang-da/" title="Trắng Da - Trị Nám">
-                      Trắng Da - Trị Nám</a>
-                  </li>
-                  <li><a href="https://japana.vn/nhau-thai-placenta/" title="Nhau Thai - Placenta">
-                      Nhau Thai - Placenta</a>
-                  </li>
-                  <li><a href="https://japana.vn/giam-den-nghe-den-toi-den/" title="Giấm Đen - Nghệ Đen - Tỏi Đen">
-                      Giấm Đen - Nghệ Đen - Tỏi Đen</a>
-                  </li>
-                  <li><a href="https://japana.vn/sua-ong-chua-chong-lao-hoa/" title="Sữa Ong Chúa - Chống Lão Hóa">
-                      Sữa Ong Chúa - Chống Lão Hóa</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-sub">
-                <a href="https://japana.vn/giam-can/" title="Giảm cân">
-                  <img src="https://japana.vn/uploads/category/1536632988-icon4.png" alt="Giảm cân">
-                  <span>Giảm cân </span>
-                </a>
-                <ul>
-                </ul>
-              </li>
-              <li class="has-sub">
-                <a href="https://japana.vn/thuc-pham-chuc-nang/" title="Chăm Sóc Sức Khỏe">
-                  <img src="https://japana.vn/uploads/category/1536633007-icon5.png" alt="Chăm Sóc Sức Khỏe">
-                  <span>Chăm Sóc Sức Khỏe <i class="fa fa-angle-right" aria-hidden="true"></i>
-                  </span>
-                </a>
-                <ul>
-                  <li><a href="https://japana.vn/tao-xoan/" title="Tảo Xoắn">
-                      Tảo Xoắn</a>
-                  </li>
-                  <li><a href="https://japana.vn/nam-linh-chi/" title="Nấm Linh Chi">
-                      Nấm Linh Chi</a>
-                  </li>
-                  <li><a href="https://japana.vn/ho-tro-dieu-tri-ung-thu/" title="Hỗ Trợ Điều Trị Ung Thư">
-                      Hỗ Trợ Điều Trị Ung Thư</a>
-                  </li>
-                  <li><a href="https://japana.vn/xuong-khop/" title="Hỗ Trợ Xương Khớp">
-                      Hỗ Trợ Xương Khớp</a>
-                  </li>
-                  <li><a href="https://japana.vn/ho-tro-dieu-tri-tai-bien/" title="Hỗ Trợ Điều Trị Tai Biến">
-                      Hỗ Trợ Điều Trị Tai Biến</a>
-                  </li>
-                  <li><a href="https://japana.vn/bo-nao/" title="Hỗ Trợ Não &amp; Trí Nhớ">
-                      Hỗ Trợ Não &amp; Trí Nhớ</a>
-                  </li>
-                  <li><a href="https://japana.vn/giai-bia-ruou-bao-ve-gan/" title="Thải Độc Gan">
-                      Thải Độc Gan</a>
-                  </li>
-                  <li><a href="https://japana.vn/sinh-ly-nam-nu/" title="Sức Khỏe &amp; Sinh Lý Nam">
-                      Sức Khỏe &amp; Sinh Lý Nam</a>
-                  </li>
-                  <li><a href="https://japana.vn/suc-khoe-sinh-ly-nu/" title="Sức Khỏe &amp; Sinh Lý Nữ">
-                      Sức Khỏe &amp; Sinh Lý Nữ</a>
-                  </li>
-                  <li><a href="https://japana.vn/bo-mat/" title="Chăm Sóc Mắt">
-                      Chăm Sóc Mắt</a>
-                  </li>
-                  <li><a href="https://japana.vn/cham-soc-he-tieu-hoa-1/" title="Chăm Sóc Hệ Tiêu Hóa">
-                      Chăm Sóc Hệ Tiêu Hóa</a>
-                  </li>
-                  <li><a href="https://japana.vn/thuoc-bo-vitamin/" title="Vitamin Tổng Hợp">
-                      Vitamin Tổng Hợp</a>
-                  </li>
-                  <li><a href="https://japana.vn/dieu-tri-khac/" title="Điều Trị Khác">
-                      Điều Trị Khác</a>
-                  </li>
-                </ul>
-              </li>
-
-            </div>
-
-
-          </div>
           <div class="search-menu">
             <div class="box-search">
               <form method="GET" name="frm" id="frm" action="#" enctype="multipart/form-data">
                 <div class="form-group">
                   <input autocomplete="off" x-webkit-speech_off="" x-webkit-grammar_off="builtin:search" id="search" name="search" class="form-control ipt-search" placeholder="Tìm kiếm sản phẩm ..." type="text" value="">
-                  <button onclick="searchitem.gotolink('/search.jp?q=');" type="button" class="icon-search"><i class="fas fa-search"></i></button>
+                  <button onclick="" type="button" class="icon-search"><i class="fas fa-search"></i></button>
                   <div id="showsearch">
-
                   </div>
                 </div>
               </form>
             </div>
+            <div class="menu-demuc d-flex justify-content-between">
+              <div class="cate-menu" id="main-menu">
+                <a href="#">
+                  <p href="" class="title-cate"> Danh mục sản phẩm <i class="fas fa-bars"></i></p>
+                </a>
+                <!-- <p class="title-cate"> Danh mục sản phẩm <a href="#sub-menu" data-toggle="collapse" data-parent="#main-menu" class="fas fa-bars" aria-expanded="false" aria-haspopup="true"></a></p> -->
+                <!-- <div class="collapse list-group-menu" id="sub-menu">
+                  <li class="has-sub">
+                    <a href="#" title="Sản Phẩm Bán Chạy">
+                      <img src="https://japana.vn/uploads/category/1612510003-1557111695-asset-10.png" alt="Sản Phẩm Bán Chạy">
+                      <span>Sản Phẩm Bán Chạy </span>
+                    </a>
+
+                    </ul>
+                  </li>
+                  <li class="has-sub">
+                    <a href="#" title="Collagen">
+                      <img src="https://japana.vn/uploads/category/1545300977-collagen.png" alt="Collagen">
+                      <span>Collagen <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </span>
+                    </a>
+                    <ul>
+                      <li><a href="#" title="Nước Uống Collagen">
+                          Nước Uống Collagen</a>
+                      </li>
+                      <li><a href="#" title="Collagen Dạng Bột - Thạch Ăn">
+                          Collagen Dạng Bột - Thạch Ăn</a>
+                      </li>
+                      <li><a href="#" title="Collagen Dạng Viên Uống">
+                          Collagen Dạng Viên Uống</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="has-sub">
+                    <a href="#" title="Thực Phẩm Làm Đẹp">
+                      <img src="https://japana.vn/uploads/category/1536632955-icon2.png" alt="Thực Phẩm Làm Đẹp">
+                      <span>Thực Phẩm Làm Đẹp <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </span>
+                    </a>
+                    <ul>
+                      <li><a href="#" title="Trắng Da - Trị Nám">
+                          Trắng Da - Trị Nám</a>
+                      </li>
+                      <li><a href="#" title="Nhau Thai - Placenta">
+                          Nhau Thai - Placenta</a>
+                      </li>
+                      <li><a href="#" title="Giấm Đen - Nghệ Đen - Tỏi Đen">
+                          Giấm Đen - Nghệ Đen - Tỏi Đen</a>
+                      </li>
+                      <li><a href="#" title="Sữa Ong Chúa - Chống Lão Hóa">
+                          Sữa Ong Chúa - Chống Lão Hóa</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-sub">
+                    <a href="#" title="Giảm cân">
+                      <img src="https://japana.vn/uploads/category/1536632988-icon4.png" alt="Giảm cân">
+                      <span>Giảm cân </span>
+                    </a>
+                    <ul>
+                    </ul>
+                  </li>
+                  <li class="has-sub">
+                    <a href="https://japana.vn/thuc-pham-chuc-nang/" title="Chăm Sóc Sức Khỏe">
+                      <img src="https://japana.vn/uploads/category/1536633007-icon5.png" alt="Chăm Sóc Sức Khỏe">
+                      <span>Chăm Sóc Sức Khỏe <i class="fa fa-angle-right" aria-hidden="true"></i>
+                      </span>
+                    </a>
+                    <ul>
+                      <li><a href="#" title="Tảo Xoắn">
+                          Tảo Xoắn</a>
+                      </li>
+                      <li><a href="#" title="Nấm Linh Chi">
+                          Nấm Linh Chi</a>
+                      </li>
+                      <li><a href="#" title="Hỗ Trợ Điều Trị Ung Thư">
+                          Hỗ Trợ Điều Trị Ung Thư</a>
+                      </li>
+                      <li><a href="#" title="Hỗ Trợ Xương Khớp">
+                          Hỗ Trợ Xương Khớp</a>
+                      </li>
+                      <li><a href="#" title="Hỗ Trợ Điều Trị Tai Biến">
+                          Hỗ Trợ Điều Trị Tai Biến</a>
+                      </li>
+                      <li><a href="#" title="Hỗ Trợ Não &amp; Trí Nhớ">
+                          Hỗ Trợ Não &amp; Trí Nhớ</a>
+                      </li>
+                      <li><a href="#" title="Thải Độc Gan">
+                          Thải Độc Gan</a>
+                      </li>
+                      <li><a href="#" title="Sức Khỏe &amp; Sinh Lý Nam">
+                          Sức Khỏe &amp; Sinh Lý Nam</a>
+                      </li>
+                      <li><a href="#" title="Sức Khỏe &amp; Sinh Lý Nữ">
+                          Sức Khỏe &amp; Sinh Lý Nữ</a>
+                      </li>
+                      <li><a href="#" title="Chăm Sóc Mắt">
+                          Chăm Sóc Mắt</a>
+                      </li>
+                      <li><a href="#" title="Chăm Sóc Hệ Tiêu Hóa">
+                          Chăm Sóc Hệ Tiêu Hóa</a>
+                      </li>
+                      <li><a href="#" title="Vitamin Tổng Hợp">
+                          Vitamin Tổng Hợp</a>
+                      </li>
+                      <li><a href="#" title="Điều Trị Khác">
+                          Điều Trị Khác</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                </div> -->
+
+
+              </div>
+              <div class="tag-top">
+                <ul class="d-flex dv-ht">
+                  <li class="text-color-white">
+                    <a class="text-color-white" href="#">
+                      Dịch Vụ của C-Mart
+
+                    </a>
+                    <!--Start of Dropdown-->
+                    <!-- <ul class="dropdown-navcmart">
+                      <li><a href="">Lawn Care</a></li>
+                      <li><a href="">Walling &amp; Fencing</a></li>
+                      <li><a href="">Landscape design</a></li>
+                      <li><a href="">Grounds Maintenance</a></li>
+                    </ul> -->
+                  </li>
+                  <!-- <li><a class="text-color-white" href="#" title="mặt nạ">Dịch Vụ của C-Mart</a></li> -->
+                </ul>
+            
+            </div>
             <div class="tag-top">
-              <ul class="d-flex">
-                <li><a class="text-color-white" href="#" title="tảo">tảo</a></li>
-                <li><a class="text-color-white" href="#" title="Shiseido">Shiseido</a></li>
-                <li><a class="text-color-white" href="#" title="mặt nạ">mặt nạ</a></li>
-                <li><a class="text-color-white" href="#" title="Kem chống nắng">Kem chống nắng</a></li>
+
+              <ul class="d-flex dv-ht">
+                <li class=" text-color-white">
+                  <a class="text-color-white" href="#" >Hỗ Trợ C-A-Z của C-Mart</a>
+                  <!--Start of Dropdown-->
+                  <!-- <ul class="dropdown-navcmart">
+                      <li><a href="">Lawn Care</a></li>
+                      <li><a href="">Walling &amp; Fencing</a></li>
+                      <li><a href="">Landscape design</a></li>
+                      <li><a href="">Grounds Maintenance</a></li>
+                    </ul> -->
+                </li>
+                <!-- <li><a class="text-color-white" href="#" title="mặt nạ">Dịch Vụ của C-Mart</a></li> -->
               </ul>
             </div>
           </div>
-          <div class="item other-top item-follow-order">
-            <div class="follow-order other">
-              <a rel="nofollow" href="#" title="Theo dõi đơn hàng">
-                <i class="icon-all-new icon-follow icon-follow-header"></i>
-                <span class="text-color-white">Theo dõi<br>đơn hàng</span>
-              </a>
+
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- <div class="item item-custom d-flex ">
+            <div class="time-top">
+              <i class="fas fa-clock"></i>
             </div>
-            <div class="cart other">
-              <a rel="nofollow" href="#" title="Giỏ hàng">
-                <i class="icon-all-new icon-cart icon-cart-header"></i>
-                <span class="number-cart"><abbr class="count-giohang">0</abbr></span>
-              </a>
-            </div>
+            <p id="working-time-header"> Giờ làm: 8h - 17h00 (T2 - CN) </p>
+               </div> -->
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">
+                  www.facebook.com/japana.sieuthinhat <i class="fab fa-facebook-f"></i></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  (028) 7108 8889 <i class="fas fa-phone-alt"></i></a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Đăng nhập</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link gach" href="#">Đăng ký</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </nav>
+        <div class="item other-top item-follow-order">
+          <div class="follow-order other">
+            <a rel="nofollow" href="#" title="Theo dõi đơn hàng">
+              <i class="icon-all-new icon-follow icon-follow-header"></i>
+              <span class="text-color-white">Theo dõi<br>đơn hàng</span>
+            </a>
+          </div>
+          <div class="cart other">
+            <a rel="nofollow" href="#" title="Giỏ hàng">
+              <i class="icon-all-new icon-cart icon-cart-header"></i>
+              <span class="number-cart"><abbr class="count-giohang">0</abbr></span>
+            </a>
           </div>
         </div>
+
       </div>
+
     </div>
 
+    </div>
+    <div class=" d-flex flex-column justify-center align-items-center bannercmart" id="gradient">
+      <span data-title=" Chào mừng Quý Khách đến với Cửa hàng trực tuyến C-Mart" class="text">
+        Chào mừng Quý Khách đến với Cửa hàng trực tuyến C-Mart
+      </span>
+      <p>Mọi liên hệ nên thực hiện từ Số điện thoại xác nhận giao dịch và đến kênh giao dịch chính thức của C-Mart.</p>
+    </div>
 
   </header>
   <!-- menu-tablet-mobile -->
@@ -817,9 +851,6 @@
                   </ul>
                 </div>
               </div>
-
-
-
             </div>
           </div>
           <div role="tabpanel" class="tab-pane " id="acc">
@@ -830,19 +861,12 @@
                 <li><a href="#" title="title"><i class="far fa-sticky-note"></i><span>Tra cứu đơn hàng</span></a></li>
               </ul>
             </div>
-
-
-
-
           </div>
         </div>
-
-
       </div>
-
     </nav>
-
     <span class="screen-darken"></span>
+
   </header>
   <div class="toolbar2 ">
     <ul class="d-flex justify-content-around  align-items-center">
@@ -856,6 +880,14 @@
 
 
   <script type="text/javascript">
+    $(document).ready(function() {
+      $(document).click(function() {
+        // if($(".navbar-collapse").hasClass("in")){
+        $('.list-group-menu').collapse('hide');
+        // }
+      });
+    });
+
     function darken_screen(yesno) {
       if (yesno == true) {
         document.querySelector('.screen-darken').classList.add('active');
@@ -901,5 +933,23 @@
       });
 
     });
+    var btn = $('#button');
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 1800) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: 0
+      }, '1800');
+    });
+
+
     // DOMContentLoaded  end
   </script>
