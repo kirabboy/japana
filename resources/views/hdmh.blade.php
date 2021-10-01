@@ -27,7 +27,7 @@
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Hưỡng Dẫn Mua Hàng </a>
+        <a href="# " class="cs">/Hưỡng Dẫn Đặt Hàng </a>
       </div>
     </div>
   </section>
@@ -67,59 +67,94 @@
         </div>
         <!--Phan noi dung cua trang Chính Sách Vận Chuyển-->
         <div class="static-detail">
-            <h3 class="title">Hướng dẫn mua hàng</h3>
+            <h3 class="title">Hướng dẫn đặt hàng </h3>
             <div class="detail-static">
-                <p>Quý khách có thể đặt mua hàng trực tuyến tại&nbsp;website <a href="https://japana.vn">Japana.vn</a> thông qua các bước đơn giản sau</p>
+                <p style="text-alignt:justify">Bằng cách giao dịch với C-Mart, Quý Khách đã đồng ý điều khoản: Trước khi C-Mart xác nhận yêu cầu hủy thông tin liên lạc được Quý Khách đăng ký với C-Mart, thì mọi giao dịch, giao kết từ các kênh liên lạc trên đều được xem là giao kết Hợp đồng chính thức giữa C-Mart và Quý Khách. Trước thời điểm trên, C-Mart xin miễn trừ mọi trách nhiệm từ những vấn đề phát sinh ngoài ý muốn của Quý Khách qua các kênh liên lạc trên.</p>
 
-                <h3><strong>1. Tìm kiếm sản phẩm:</strong></h3>
+                <p style="text-alignt:justify">❖	Quý Khách Hàng có thể lựa chọn đặt hàng tại C-Mart theo các hình thức:</p>
+                <ul>
+                  <li>1)	Đặt hàng trực tuyến qua Cửa hàng trực tuyến cm.com.vn (Link đến liên kết): dành cho Khách Hàng Thân Thiết, Khách Hàng V.I.P, Cộng Tác Viên;</li>
+                  <li>2)	Đặt hàng trực tuyến qua Kênh Chăm sóc Khách Hàng Trực tuyến C-A-Z dành cho Khách Hàng Chưa Định Danh;</li>
+                  <li>3)	Đặt hàng trực tiếp tại C-Store: dành cho Khách Hàng Thương Mại;</li>
+                  <li>4)	Đặt hàng qua C-Call 0899302323 (Link đến ứng dụng ĐT): dành cho Khách Hàng Thương Mại;</li>
+                  <li>5)	Đặt hàng trực tuyến qua Mạng xã hội C-Facebook (Box chứa liên kết): dành cho Khách Hàng Chưa Định Danh;</li>
+                  <li>6)	Đặt hàng trực tuyến qua Mạng xã hội C-Zalo (Box chứa liên kết): dành cho Khách Hàng  Thương Mại, Khách Hàng C-Ship</li>
+                
+                </ul>
+                <p><strong>I. HƯỚNG DẪN ĐẶT HÀNG TRỰC TUYẾN QUA CỬA HÀNG TRỰC TUYẾN CM.COM.VN (Link đến liên kết)</strong></p>
+                <div class="text-center">
+                  <p>😀 Người Đặt Hàng bắt buộc phải là chủ nhân Hồ Sơ Khách Hàng đang giao dịch 😀 <br>
+                  😀 Dành cho Khách Hàng Thân Thiết, Khách Hàng V.I.P, Cộng Tác Viên 😀</p>
+                </div>
+                <p style="text-alignt:justify"><strong>1. Tìm Kiếm Sản Phẩm.</strong></p>
+                <p style="text-alignt:justify">Cách 1: Tham quan, mua sắm theo ý thích trong Danh mục sản phẩm;</p>
+                <p style="text-alignt:justify">Cách 2: Nhập Tên sản phẩm hoặc Mã sản phẩm cần tìm vào thanh công cụ Tìm kiếm ở trên cùng màn hình;</p>
+                <p style="text-alignt:justify">Cách 3: Liên hệ các kênh giao dịch chính thức của C-Mart để yêu cầu hỗ trợ.</p>
 
-                <p>Qúy khách có thể tìm sản phẩm theo&nbsp;3 cách:&nbsp;</p>
+                <p style="text-alignt:justify"><strong>2. Tìm Hiểu Sản Phẩm:</strong> Nhấn vào Hình ảnh hoặc Tên sản phẩm cần tìm hiểu. </p>
 
-                <p>a. Gõ tên sản phẩm vào thanh tìm kiếm</p>
+                <p style="text-alignt:justify"><strong>3. Đặt Mua Sản Phẩm.</strong></p>
 
-                <p>b. Tìm theo danh mục</p>
+                <p style="text-alignt:justify">Bước 1: <strong>Chọn đặc điểm, chủng loại sản phẩm</strong> như kích thước, màu sắc, mẫu mã… (nếu có) ;</p>
 
-                <p>c. Tìm theo các sản phẩm mới nhất, bán chạy hoặc danh mục phổ biến trên từng ngành hàng</p>
+                <p style="text-alignt:justify">Bước 2: <strong>Chọn số lượng</strong> sản phẩm;</p>
 
-                <h3><strong>2. Thêm sản phẩm vào giỏ hàng:</strong></h3>
+                <p style="text-alignt:justify">Bước 3: <strong>Nhấn Thêm vào giỏ hàng</strong> để chọn sản phẩm.</p>
 
-                <p>Khi đã tìm được sản phẩm mong muốn, quý khách vui lòng bấm vào hình hoặc tên sản phẩm để vào được trang thông tin chi tiết của sản phẩm, sau đó:</p>
 
-                <p>a. Kiểm tra thông tin sản phẩm: giá, thông tin khuyến mãi.&nbsp;</p>
+                <p style="text-alignt:justify"><strong>4. Kiểm Tra Giỏ Hàng:</strong> Trong Giỏ hàng vừa hiện ra trên cửa sổ màn hình mới:</p>
+                
+                <ul>
+                  <li>●	Thay đổi số lượng	: Nhập điều chỉnh ở mục Số lượng, rồi nhấn <strong>Cập nhật .</strong></li>
+                  <li>●	Trả lại sản phẩm về gian hàng	: <strong>Ấn Trả .</strong></li>
+                  <li>●	Quay lại tiếp tục mua sắm siêu tiết kiệm	: <strong>Ấn Tiếp tục chọn hàng .</strong></li>
+                  <li>●	Hoàn tất mua sắm và thực hiện thanh toán	: <strong>Ấn Đặt hàng .</strong></li>
+                </ul>
+                
+                <p style="text-alignt:justify"><strong>5. Định danh Khách Hàng - Đặt hàng:</strong> Trong trang Định danh Khách Hàng vừa hiện ra trên cửa sổ màn hình mới:</p>
+                <p style="text-alignt:justify"><strong>Trường Hợp 1: Quý Khách Hàng đã có Hồ Sơ Khách Hàng tại C-Mart.</strong></p>
+                <ul>
+                  <li>Bước 1: Nhấn <strong>Tôi đã có Hồ Sơ Khách Hàng. Thật nhiều quyền lợi !! Hãy như tôi !! </strong>để truy cập Hồ Sơ Khách Hàng;</li>
+                  <li>Bước 2: Sau khi truy cập HSKH, tại cửa sổ màn hình mới hiện ra, cung cấp thông tin nhận hàng theo 01 trong 04 cách:</li>
+                  <li>
+                    <ul>
+                      <li>Đánh dấu vào ô <strong>Thông tin nhận hàng giống thông tin đặt hàng</strong> để chọn thông tin nhận hàng là thông tin đặt hàng;</li>
+                      <li>Đánh dấu vào ô <strong>Dùng thông tin nhận hàng trước đây</strong> để chọn các thông tin nhận hàng đã lưu trong HSKH;</li>
+                      <li>Đánh dấu vào ô Nhận hàng tại Cửa hàng để chọn <strong>nhận hàng tại C-Store</strong> hoặc Cửa hàng phân phối,  và nhập Tên + Địa chỉ Cửa hàng;</li>
+                      <li>Hoặc <strong>nhập các thông tin nhận hàng mới</strong> theo trình tự.</li>
+                      
 
-                <p>b. Chọn số lượng mong muốn.&nbsp;</p>
+                    </ul>
+                  </li>
+                  <li>Xin Quý Khách Hàng tin tưởng rằng C-Mart xem việc bảo mật thông tin là điều vô cùng nghiêm túc, và chúng tôi thực hiện vô cùng nghiêm ngặt. Các thông tin chỉ dùng để hướng đến sự chuyên nghiệp, tiện lợi hơn trong phục vụ Khách Hàng.</li>
+                  <li>Bước 3: Chọn Đơn vị vận chuyển (C-Ship nếu địa chỉ nhận hàng tại TP.HCM, hoặc Vietnam Post nếu địa chỉ nhận hàng khác TP.HCM), Ghi chú cho đơn hàng (nếu có), Thông tin xuất hóa đơn GTGT (nếu có);</li>
+                  <li>Bước 4: Nếu cần chỉnh sửa giỏ hàng, nhấn <strong>Quay lại Giỏ hàng.</strong> Nếu không cần thay đổi, nhấn<strong>Tiếp tục Thanh toán;</strong></li>
+                  <li>Bước 5: Chọn Phương thức thanh toán, Xem lại đơn hàng và xác nhận đồng ý với 04 chính sách, quy định giao dịch:</li>
+                  <li>
+                    <ul>
+                      <li>Đánh dấu vào ô <strong>Tôi đã đọc và đồng ý với Chính sách Giao - Nhận;</strong></li>
+                      <li>Đánh dấu vào ô <strong>Tôi đã đọc và đồng ý với Chính sách Đổi - Trả;</strong></li>
+                      <li>Đánh dấu vào ô <strong>Tôi đã đọc và đồng ý với Chính sách Bảo hành;</strong></li>
+                      <li>Đánh dấu vào ô <strong>Tôi đã đọc và đồng ý với Quy định Điều khoản & Điều kiện giao dịch.</strong></li>
+                    </ul>
+                  </li>
+                  <li>Bước 6: Nếu cần chỉnh sửa thông tin, nhấn <strong>Quay lại Trang trước</strong>. Nếu không cần thay đổi, nhấn <strong>Thanh toán</strong> và thực hiện theo trình tự.</li>
+                  <li>Bước 7: Hoàn tất đặt hàng sẽ xuất hiện <strong>Thông báo Xác nhận đặt hàng thành công.</strong></li>
 
-                <p>c. Thêm sản phẩm vào giỏ hàng.</p>
+                </ul>
 
-                <h3><strong>3. Kiểm tra giỏ hàng:</strong></h3>
 
-                <p>Trong giỏ hàng thể hiện đầy đủ thông tin số lượng sản phẩm và tổng giá trị tiền hàng. Quý khách vui lòng kiểm tra đúng sản phẩm, số lượng và giá trị tiền hàng.&nbsp;</p>
 
-                <p>Tại giỏ hàng, Quý khách có thể chọn mua thêm sản phẩm khác hoặc chọn huỷ một sản phẩm bất kỳ.</p>
 
-                <h3><strong>4. Điền thông tin địa chỉ giao nhận hàng:</strong></h3>
+                <p style="text-alignt:justify"></p>
+                <p style="text-alignt:justify"></p>
+                <p style="text-alignt:justify"></p>
 
-                <p>Quý khách phải điền đầy đủ thông tin của người mua và nhận hàng, Chúng tôi&nbsp;cam kết sẽ giữ bí mật thông tin cá nhân của quý khách.</p>
 
-                <p>Trên cơ sở thông tin quý khách cung cấp, <strong>Siêu Thị Nhật Bản Japana.vn</strong> sẽ tiến hành các thủ tục còn lại để giao hàng</p>
 
-                <h3><strong>5. Phương thức thanh toán:</strong></h3>
 
-                <p>Hiện tại&nbsp;<strong>Siêu Thị Nhật Bản Japana.vn</strong> có các&nbsp;hình thức thanh toán cho khách hàng lực chọn:</p>
 
-                <p>- Thanh toán khi nhận hàng (COD) - Áp dụng toàn quốc.</p>
 
-                <p>- Thanh toán trực tiếp tại Văn phòng đại diện Công ty CP Japana Việt Nam</p>
-
-                <p>Nếu các thông tin trên đã chính xác, quý khách&nbsp;vui lòng&nbsp;bấm "Đặt&nbsp;Mua", hệ thống sẽ bắt đầu tiến hành tạo đơn hàng dựa trên các thông tin quý khách đã đăng ký.</p>
-
-                <h3><strong>6. Kiểm tra và xác nhận đơn hàng:</strong></h3>
-
-                <p>Quý khách có thể vào email của mình&nbsp;để nhận thư xác nhận đặt hàng</p>
-
-                <h3><strong>7. Hoàn tất đơn hàng:</strong></h3>
-
-                <p>Sau khi đơn hàng đã được xác nhận bằng email, bộ phận chăm sóc khách hàng của <strong>Siêu Thị Nhật Bản Japana.vn&nbsp;</strong>sẽ gọi điện trực tiếp cho quý khách hàng thông qua số điện thoại mà quý khách hàng đã cung cấp để xác nhận lại&nbsp;một lần nữa về đơn hàng.</p>
             </div>
         </div>
 
