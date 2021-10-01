@@ -27,7 +27,7 @@
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Chính Sách Vận Chuyển</a>
+        <a href="# " class="cs">/Chính Sách Giao - Nhận</a>
       </div>
     </div>
   </section>
@@ -41,7 +41,7 @@
             <div class="list-group ">
                 <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
                 <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
-                <a href="{{url('/')}}" class="active-csv   content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
+                <a href="{{url('/')}}" class="active-csv   content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách giao nhận</a>
                 <a href="{{url('/dkgd')}}" class="content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
                 <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
                 <a href="{{url('/tggh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
@@ -69,28 +69,34 @@
         <div class="static-detail">
           <h3 class="title">Chính sách vận chuyển </h3>
           <div class="detail-static">
-                <h2><strong>CHÍNH SÁCH VẬN CHUYỂN VÀ PHÍ VẬN CHUYỂN TRONG DỊCH COVID-19</strong></h2>
-                <p><em>Trước diễn biến phức tạp của dịch COVID-19 tại TP. Hồ Chí Minh và một số tỉnh thành, JAPANA cập nhật biểu phí vận chuyển theo khu vực và thời gian giao nhận hàng như sau:</em></p>
-                <h3><strong>1. Phí vận chuyển và miễn phí vận chuyển</strong></h3>
-                <p><strong>a. Khu vực Thành phố Hồ Chí Minh</strong><br>JAPANA thực hiện hình thức giao nhanh trên các Quận/Huyện&nbsp;Khu vực Thành phố Hồ Chí Minh, <strong>thời gian nhận hàng từ 1-3 ngày</strong> sau khi xác nhận đơn thành công và chỉ áp dụng <strong><a href="https://japana.vn/phuong-thuc-thanh-toan-static-4.jp" target="_blank">phương thức thanh toán</a> chuyển khoản</strong>.<br>Biểu phí vận chuyển từng khu vực cụ thể như sau:</p>
-                <p style="text-align: center;" class="card-img ">
-                  <img alt="Chính sách vận chuyển" src="https://japana.vn/uploads/detail/2021/08/images/mien-phi-van-chuyen-cskh-63.jpg" style="width: 100%; ">
+                <p style="text-align:justify">Bằng cách giao dịch với C-Mart, Quý Khách đã đồng ý điều khoản: Trước khi C-Mart xác nhận yêu cầu hủy thông tin liên lạc được Quý Khách đăng ký với C-Mart, thì mọi giao dịch, giao kết từ các kênh liên lạc trên đều được xem là giao kết Hợp đồng chính thức giữa C-Mart và Quý Khách. Trước thời điểm trên, C-Mart xin miễn trừ mọi trách nhiệm từ những vấn đề phát sinh ngoài ý muốn của Quý Khách qua các kênh liên lạc trên.
+                    </p>
+                <p style="text-align:justify">	Với các nhóm hàng có sẵn tại C-Store, Quý Khách Hàng có thể tiến hành phương thức Mua nhanh – Bán nhanh (Trải nghiệm tại chỗ – Thanh toán ngay tại C-Store), mà vẫn được đảm bảo đầy đủ các chính sách và quyền lợi. Trong tương lai, C-Store sẽ bổ sung đa dạng các nguồn hàng để Khách cần – Khách đến – Khách có đem về.
                 </p>
-                <p><strong>b. Khu vực tỉnh/thành khác</strong></p>
+                <p style="text-align:justify">	C-Mart với 02 đơn vị vận chuyển là C-Ship (nếu địa chỉ nhận hàng tại TP.HCM) và Vietnam Post (nếu địa chỉ nhận hàng khác TP.HCM) sẽ cung cấp đa dạng các phương thức giao nhận, hỗ trợ Quý Khách Hàng lựa chọn phương thức giao nhận phù hợp nguyện vọng, tiện lợi và nhanh chóng:</p>
                 <ul>
-                  <li>Đối với hoá đơn&nbsp;<strong>trên 1.500.000đ&nbsp;</strong>phí vận chuyển sẽ hoàn toàn&nbsp;<strong>MIỄN PHÍ</strong>.&nbsp;</li>
-                  <li>Đối với những hoá đơn&nbsp;<strong>dưới 1.500.000đ: 40.000đ</strong></li>
+                    <li>Giao hàng đến địa điểm yêu cầu: Địa điểm nhận hàng là vị trí cụ thể theo nhu cầu của Quý Khách Hàng;</li>
+                    <li>Dùng thông tin nhận hàng giống thông tin đặt hàng;</li>
+                    <li>Dùng thông tin nhận hàng trước đây;</li>
+                    <li>Nhận hàng tại Cửa hàng (C-Store hoặc Cửa hàng phân phối): Quý Khách Hàng sẽ đến trực tiếp C-Store hoặc Cửa hàng phân phối đã lựa chọn để nhận hàng /sử dụng dịch vụ. Quý Khách Hàng vui lòng ghi chú thời gian nhận hàng cụ thể;</li>
+                    <li>Giao hàng đến địa điểm bên trung gian khác (chành xe, kho bãi…): Quý Khách Hàng vui lòng ghi chú địa điểm nhận hàng cụ thể, và các thông tin cần thiết khác. </li>
+                    <li><strong>Quý Khách Hàng lưu ý C-Mart xin phép miễn trừ hoàn toàn trách nhiệm khi Quý Khách Hàng lựa chọn hình thức nhận hàng này.
+                    </strong></li>
+
                 </ul>
-                <p><strong>* Lưu ý:&nbsp;</strong>Trường hợp đối với một số sản phẩm có kích thước và khối lượng nặng, sẽ thu phí vận chuyển cồng kềnh.</p>
-                <h3><strong>2.&nbsp;Thời gian giao nhận hàng</strong></h3>
-                <p>Trước diễn biến phức tạp của dịch COVID-19 tại TP. Hồ Chí Minh và một số tỉnh <strong>thành, thời gian giao nhận hàng có </strong>thể kéo dài hơn so với thời gian giao hàng dự kiến.&nbsp;<br>Cụ thể như sau:</p>
+                <p style="text-align:justify"><strong>VẤN ĐỀ THƯỜNG GẶP » GIAO NHẬN CÙNG C-MART</strong></p>
                 <ul>
-                  <li>Áp dụng chính sách giao nhanh khu vực Thành phố Hồ Chí Minh: <strong>1-3 ngày</strong>.</li>
-                  <li>Giao hàng khu vực Thành phố Hồ Chí Minh (không áp dụng giao nhanh): <strong>15-30 ngày</strong>.</li>
-                  <li>Các tình thành phố khác:&nbsp;<strong>15-30 ngày</strong>.</li>
+                    <li><strong>Phí giao hàng:</strong> Thông tin sẽ được thể hiện cụ thể khi đặt hàng trên website. Hoặc Quý Khách Hàng sẽ được thông báo trong quá trình đặt hàng.
+                    </li>
+                    <li>
+                       <strong>Thời gian giao hàng:</strong> Quý Khách Hàng tra cứu nội dung trong Trang giới thiệu sản phẩm.
+
+                    </li>
                 </ul>
 
-                <p>Chính sách miễn phí vận chuyển được áp dụng cho tất cả các tỉnh thành, huyện xã, trung tâm đến địa phương vùng sâu, trong trường hợp Quý khách hàng khi nhận hàng, hoặc khi thanh toán vẫn còn bị tính phí vận chuyển, vui lòng báo về cho <strong>Siêu Thị Nhật Bản Japana</strong>&nbsp;theo số Tổng đài : <strong>(028) 7108 8889</strong> để chúng tôi có thể hỗ trợ tối đa cho Quý khách hàng!<br><em><strong>Chúng tôi xin chân thành cảm ơn sự ủng hộ và đồng hành của Quý khách hàng!</strong></em></p>
+
+
+
           </div>
         </div>
 
@@ -119,7 +125,7 @@
           <div class="nav flex-column">
             <a href="#"                 class=" content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
             <a href="#"                 class="active-cs content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
-            <a href="{{url('/')}}"      class=" active-csv content-hover nav-item nav-link">Chính sách vận chuyển</a>
+            <a href="{{url('/')}}"      class=" active-csv content-hover nav-item nav-link">Chính sách giao nhận</a>
             <a href="{{url('/dkgd')}}"  class=" content-hover nav-item nav-link">Điều khoản giao dịch</a>
             <a href="{{url('/pttt')}}"  class=" content-hover nav-item nav-link">Phương thức thanh toán</a>
             <a href="{{url('/tggh')}}"  class=" content-hover nav-item nav-link">Thời gian giao hàng </a>

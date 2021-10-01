@@ -27,7 +27,7 @@
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Chính Sách Bảo Hành</a>
+        <a href="# " class="cs">/CHÍNH SÁCH BẢO HÀNH CỦA C-MART</a>
       </div>
     </div>
   </section>
@@ -43,7 +43,7 @@
               <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
               <a href="{{url('/')}}" class="content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
               <a href="{{url('/dkgd')}}" class=" content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
-              <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
+              <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Chính sách thanh toán</a>
               <a href="{{url('/tggh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
               <a href="{{url('/csbh')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
               <a href="{{url('/csbm')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo mật </a>
@@ -51,7 +51,6 @@
               <a href="{{url('/hdmh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
               <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quyền lời VIP </a>
               <a href="{{url('/qdbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
-              <a href="{{url('/chtg')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Câu hỏi thương gặp </a>
               <a href="{{url('/lh')}}" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Liên hệ</a>
             </div>
           </div>
@@ -69,42 +68,54 @@
         <div class="static-detail">
             <h3 class="title">Chính sách bảo hành</h3>
             <div class="detail-static">
-                <p style="text-align:justify"><strong>I. ĐIỀU KIỆN BẢO HÀNH:</strong></p>
+                <p style="text-align:justify">Bằng cách giao dịch với C-Mart, Quý Khách đã đồng ý điều khoản: Trước khi C-Mart xác nhận yêu cầu hủy thông tin liên lạc được Quý Khách đăng ký với C-Mart, thì mọi giao dịch, giao kết từ các kênh liên lạc trên đều được xem là giao kết Hợp đồng chính thức giữa C-Mart và Quý Khách. Trước thời điểm trên, C-Mart xin miễn trừ mọi trách nhiệm từ những vấn đề phát sinh ngoài ý muốn của Quý Khách qua các kênh liên lạc trên.
+                </p>
+                <p style="text-align:justify">C-Mart sẽ phát huy vai trò nhà phân phối trung gian bảo vệ quyền lợi Khách Hàng, khuyến khích Quý Khách Hàng đồng hành với C-Mart để mua sắm tiết kiệm, tiêu dùng thông thái, và tận hưởng thật nhiều quyền lợi từ 4 phương - 8 hướng.
+                </p>
+                <p style="text-align:justify"><strong>1. ĐIỀU KIỆN BẢO HÀNH:</strong></p>
 
-                <p style="text-align:justify">1. Sản phẩm được bảo hành miễn phí nếu sản phẩm đó hội đủ các điều kiện sau:</p>
+                <p style="text-align:justify"><strong>1.1 Sản phẩm được bảo hành MIỄN PHÍ nếu thỏa mãn TẤT CẢ các điều kiện sau:</strong></p>
 
-                <p style="text-align:justify">- Sản phẩm bị lỗi kỹ thuật do nhà sản xuất</p>
+                <p style="text-align:justify">⦁	Chính sách bảo hành sản phẩm vẫn còn hiệu lực</p>
 
-                <p style="text-align:justify">- Còn trong thời hạn bảo hành</p>
+                <p style="text-align:justify">⦁	Thông tin sản phẩm trùng khớp với thông tin bảo hành</p>
 
-                <p style="text-align:justify">- Còn giữ hóa đơn mua hàng Siêu Thị Nhật Bản JAPANA</p>
+                <p style="text-align:justify">⦁	Phiếu bảo hành (nếu có) còn nguyên vẹn, rõ ràng và đầy đủ thông tin, không có bất kỳ dấu hiệu khác biệt nào so với bản gốc, mà không phải do chủ thể chịu trách nhiệm theo quy định (như gạch xóa, sửa chữa...)</p>
 
-                <p style="text-align:justify">- Phiếu bảo hành phải còn nguyên vẹn, không chấp vá, bôi xóa, sửa chữa.</p>
+                <p style="text-align:justify">⦁	Tem bảo hành và Tem niêm phong (nếu có) trên sản phẩm còn nguyên vẹn, rõ ràng và đầy đủ thông tin, không có bất kỳ dấu hiệu khác biệt nào so với bản gốc, mà không phải do chủ thể chịu trách nhiệm theo quy định (như gạch xóa, sửa chữa...)</p>
 
-                <p style="text-align:justify">- Phiếu bảo hành đầy đủ thông tin: kiểu máy, số seri, ngày sản xuất, tên khách hàng sử dụng, địa chỉ, ngày mua (đối với các sản phẩm không áp dụng Bảo hành điện tử)</p>
+                <p style="text-align:justify">⦁ Bảo hành do lỗi Nhà sản xuất</p>
 
-                <p style="text-align:justify">- Tem bảo hành (và tem niêm phong) của nhà sản xuất trên sản phẩm còn nguyên vẹn.</p>
+                <p style="text-align:justify">⦁	Sản phẩm còn nguyên vẹn, không có dấu hiệu bị sửa chữa, hoặc các hành vi có cùng tính chất, do cá nhân/tổ chức không có chức năng bảo hành theo quy định</p>
 
-                <p style="text-align:justify">2. Những trường hợp không được bảo hành hoặc phát sinh phí bảo hành:</p>
+                <p style="text-align:justify">⦁	Sản phẩm thỏa mãn các chính sách, quy định, hướng dẫn của Nhà sản xuất, Nhà cung cấp, C-Mart</p>
 
-                <p style="text-align:justify">- Vi phạm một trong những điều kiện bảo hành miễn phí ở mục 1.<br>
-                - Số series, model sản phẩm không khớp với Phiếu bảo hành.<br>
-                - Khách hàng tự ý can thiệp sửa chữa sản phẩm hoặc sửa chữa tại những trung tâm bảo hành không được sự ủy nhiệm của Hãng.<br>
-                - Sản phẩm bị hư hỏng do lỗi người sử dụng, và lỗi hư không nằm trong phạm vi bảo hành của nhà sản xuất</p>
+                <p style="text-align:justify">⦁	Sản phẩm không được bảo hành hoặc sẽ phát sinh phí bảo hành nếu Không Thỏa Mãn Một Trong Các Điều Kiện Bảo Hành ở Mục 1.1.</p>
 
-                <p style="text-align:justify"><strong>II. THỜI HẠN BẢO HÀNH:</strong></p>
+                <p style="text-align:justify">→ C-Mart sẽ cung cấp các thông tin hướng dẫn đến Quý Khách Hàng, hỗ trợ Quý Khách Hàng tiến hành bảo hành sản phẩm một cách nhanh chóng, tiện lợi.
+                </p>
 
-                <p style="text-align:justify">Thời hạn bảo hành được tính kể từ ngày mua hàng hoặc kể từ ngày sản xuất tùy thuộc từng loại sản phẩm được quy định rõ trên phiếu bảo hành. Đối với sản phẩm bảo hành điện tử, thời hạn bảo hành được tính từ thời điểm kích hoạt bảo hành điện tử.</p>
+                <p style="text-align:justify"><strong>2. PHƯƠNG THỨC BẢO HÀNH: </strong></p>
 
-                <p style="text-align:justify"><strong>III. TRUNG TÂM BẢO HÀNH:</strong></p>
+                <p style="text-align:justify"><strong>2.1 Đối với những sản phẩm được quy định cụ thể chủ thể chịu trách nhiệm bảo hành.</strong></p>
 
-                <p style="text-align:justify">Thông tin của trung tâm bảo hành sẽ được ghi trong phiếu bảo hành kèm theo sản phẩm. Quý khách vui lòng liên hệ trực tiếp với trung tâm bảo hành có trên phiếu bảo hành.</p>
+                <p style="text-align:center"><strong>Địa Điểm Bảo Hành</strong></p>
 
-                <p style="text-align:justify">Trong trường hợp sản phẩm được phân phối trực tiếp từ các Đại lý, quý khách vui lòng trực tiếp liên hệ với đại lý đó để được hỗ trợ bảo hành trong thời gian nhanh nhất. Mọi thông tin của đại lý được ghi trên phiếu biên nhận giao hàng được đính kèm trong thùng hàng.</p>
+                <p style="text-align:justify">– Quý Khách Hàng vui lòng liên hệ trực tiếp đến Kênh Bảo hành của sản phẩm.
+                </p>
+                <p style="text-align:justify">– C-Mart sẽ cung cấp các thông tin hướng dẫn đến Quý Khách Hàng, hỗ trợ Quý Khách Hàng tiến hành bảo hành sản phẩm một cách nhanh chóng, tiện lợi.
+                </p>
+                <p style="text-align:center"><strong>Thời Gian Và Chi Phí Bảo Hành</strong></p>
 
-                <p style="text-align:justify">Nếu quý khách gặp khó khăn trong việc liên hệ trung tâm bảo hành, xin quý khách vui lòng liên hệ bộ phận Chăm sóc khách hàng theo tổng đài&nbsp;<strong>(028)&nbsp;7108 8889</strong></p>
+                <p style="text-align:justify">Trong mọi trường hợp, thời gian bảo hành sản phẩm phụ thuộc vào chính sách và/hoặc mức độ sẵn có của thiết bị và/hoặc sản phẩm thay thế tại Kênh Bảo hành.
+                </p>
+                <p style="text-align:justify">→ Kênh Bảo hành sẽ chịu trách nhiệm thông báo cụ thể mọi thông tin bảo hành đến Quý Khách Hàng. </p>
 
-                <p style="text-align:justify">Trong trường hợp quý khách ở quá xa trung tâm bảo hành hoặc gặp các vấn đề bất tiện không thể đến trung tâm bảo hành trực tiếp, quý khách có thể gửi sản phẩm về Japana.vn, chúng tôi sẽ hỗ trợ gửi sản phẩm đi bảo hành giúp quý khách..</p>
+                <p style="text-align:justify"><strong>2.2. Đối với những sản phẩm còn lại.</strong></p>
+                <p style="text-align:justify">– Quý Khách Hàng vui lòng liên hệ đến các kênh giao dịch chính thức của C-Mart, bằng kênh thông tin nhận hàng để được hỗ trợ ngay và luôn.                </p>
+
+
+
             </div>
         </div>
 
@@ -140,15 +151,14 @@
             <a href="#"                 class="active-cs content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
             <a href="{{url('/')}}"      class=" content-hover nav-item nav-link">Chính sách vận chuyển</a>
             <a href="{{url('/dkgd')}}"  class=" content-hover nav-item nav-link">Điều khoản giao dịch</a>
-            <a href="{{url('/pttt')}}"  class=" content-hover nav-item nav-link">Phương thức thanh toán</a>
+            <a href="{{url('/pttt')}}"  class=" content-hover nav-item nav-link">Chính sách thanh toán</a>
             <a href="{{url('/tggh')}}"  class=" content-hover nav-item nav-link">Thời gian giao hàng </a>
             <a href="{{url('/csbh')}}"  class=" active-csv content-hover nav-item nav-link">Chính sách bảo hành </a>
             <a href="{{url('/csbm')}}"  class=" content-hover nav-item nav-link">Chính sách bảo mật</a>
-            <a href="{{url('/csdt')}}"  class=" content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
+            <a href="{{url('/csdt')}}"  class=" content-hover nav-item nav-link">Chính sách đổi - trả </a>
             <a href="{{url('/hdmh')}}"  class="  content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
             <a href="{{url('/qlv')}}"  class="  content-hover nav-item nav-link">Quyền lời VIP </a>
             <a href="{{url('/qdbh')}}"  class="  content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>
-            <a href="{{url('/chtg')}}"  class="  content-hover nav-item nav-link">Câu hỏi thương gặp </a>
             <a href="#"                 class="  content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Liên hệ</a>
           </div>
         </div>
