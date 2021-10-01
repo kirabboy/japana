@@ -25,7 +25,7 @@
 
 
     <!-- Some content to fill up the page -->
-   
+
     <div class="bottom-header">
       <div class="container">
         <div class="d-flex flex-lg-row flex-md-row flex-column align-items-center ">
@@ -52,7 +52,7 @@
             <div class="menu-demuc d-flex justify-content-between">
               <div class="cate-menu" id="main-menu">
                 <a href="{{url('/danh-muc-san-pham')}}">
-                  <p  class="title-cate"> Danh mục sản phẩm <i class="fas fa-bars"></i></p>
+                  <p class="title-cate"> Danh mục sản phẩm <i class="fas fa-bars"></i></p>
                 </a>
                 <!-- <p class="title-cate"> Danh mục sản phẩm <a href="#sub-menu" data-toggle="collapse" data-parent="#main-menu" class="fas fa-bars" aria-expanded="false" aria-haspopup="true"></a></p> -->
                 <!-- <div class="collapse list-group-menu" id="sub-menu">
@@ -167,54 +167,72 @@
               </div>
               <div class="tag-top">
                 <ul class="d-flex dv-ht">
-                  <li class="text-color-white">
+                  <li class="text-color-white dropdowncmart">
                     <a class="text-color-white" href="#">
                       Dịch Vụ của C-Mart
 
                     </a>
                     <!--Start of Dropdown-->
-                    <!-- <ul class="dropdown-navcmart">
-                      <li><a href="">Lawn Care</a></li>
-                      <li><a href="">Walling &amp; Fencing</a></li>
-                      <li><a href="">Landscape design</a></li>
-                      <li><a href="">Grounds Maintenance</a></li>
-                    </ul> -->
+                    <ul class="dropdown-navcmart dvcmart">
+                      <li><a href="">Hỗ trợ,Tư vấn thông tin</a></li>
+                      <li><a href="">Đi chợ hộ - Mua sắm hộ, Đặt hàng theo mọi yêu cầu</a></li>
+                      <li><a href="">Gói quà</a></li>
+                      <li><a href="">Chăm sóc Nhà cửa</a></li>
+                      <li><a href="">Chăm sóc Cá nhân</a></li>
+                      <li><a href="">Thanh toán hóa đơn</a></li>
+                      <li><a href="">Kinh tế, Tài chính, Bảo hiểm, Pháp chế</a></li>
+                      <li><a href="">Tin học văn phòng, In ấn, Photocopy, Scan, Fax ...</a></li>
+                      <li><a href="">
+                          Logistics, Giao thông - Vận tải tận nơi, nhanh chóng</a></li>
+                      <li><a href="">Giáo dục - Đào tạo, Văn hóa - Giải trí, Truyền thông - Quảng cáo</a></li>
+                      <li><a href="">Hành chính - Nội vụ, Lễ tân</a></li>
+
+                    </ul>
+                  </li>
+
+                </ul>
+
+              </div>
+              <div class="tag-top">
+
+                <ul class="d-flex dv-ht">
+                  <li class=" text-color-white dropdowncmart">
+                    <a class="text-color-white" href="#">Hỗ Trợ C-A-Z của C-Mart</a>
+                    <!--Start of Dropdown-->
+                    <ul class="dropdown-navcmart">
+
+                      <li><a rel="nofollow" href="{{url('/chinh-sach-van-chuyen')}}" title="Chính sách vận chuyển">Chính sách vận chuyển</a></li>
+                      <li><a rel="nofollow" href="{{url('/dieu-khoan-giao-dich')}}" title="Điều khoản giao dịch">Điều khoản giao dịch</a></li>
+                      <li><a rel="nofollow" href="{{url('/phuong-thuc-thanh-toan')}}" title="Phương thức thanh toán">Phương thức thanh toán</a></li>
+                      <li><a rel="nofollow" href="{{url('/thoi-gian-giao-hang')}}" title="Thời gian giao hàng">Thời gian giao hàng</a></li>
+                      <li><a rel="nofollow" href="{{url('/chinh-sach-bao-hanh')}}" title="Chính sách bảo hành">Chính sách bảo hành</a></li>
+                      <li><a rel="nofollow" href="{{url('/chinh-sach-bao-mat')}}" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+                      <li><a rel="nofollow" href="{{url('/chinh-sach-doi-tra ')}}" title="Chính sách đổi trả và hoàn tiền">Chính sách đổi trả và hoàn tiền</a></li>
+                      <li><a rel="nofollow" href="{{url('/huong-dan-mua-hang')}}" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a></li>
+                      <li><a rel="nofollow" href="{{url('/quyen-loi-vip')}}" title="Quyền lợi VIP">Quyền lợi VIP</a></li>
+                      <li><a rel="nofollow" href="{{url('/quy-dinh-ban-hang')}}" title="Quy định bán hàng trên Website Japana">Quy định bán hàng trên Website Japana</a></li>
+                      <li><a rel="nofollow" href="{{url('/cau-hoi-thuong-gap')}}" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+
+                    </ul>
                   </li>
                   <!-- <li><a class="text-color-white" href="#" title="mặt nạ">Dịch Vụ của C-Mart</a></li> -->
                 </ul>
-            
+              </div>
             </div>
-            <div class="tag-top">
 
-              <ul class="d-flex dv-ht">
-                <li class=" text-color-white">
-                  <a class="text-color-white" href="#" >Hỗ Trợ C-A-Z của C-Mart</a>
-                  <!--Start of Dropdown-->
-                  <!-- <ul class="dropdown-navcmart">
-                      <li><a href="">Lawn Care</a></li>
-                      <li><a href="">Walling &amp; Fencing</a></li>
-                      <li><a href="">Landscape design</a></li>
-                      <li><a href="">Grounds Maintenance</a></li>
-                    </ul> -->
-                </li>
-                <!-- <li><a class="text-color-white" href="#" title="mặt nạ">Dịch Vụ của C-Mart</a></li> -->
-              </ul>
-            </div>
           </div>
 
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <!-- <div class="item item-custom d-flex ">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- <div class="item item-custom d-flex ">
             <div class="time-top">
               <i class="fas fa-clock"></i>
             </div>
             <p id="working-time-header"> Giờ làm: 8h - 17h00 (T2 - CN) </p>
                </div> -->
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <!-- <li class="nav-item">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item">
                 <a class="nav-link" href="#">
                   www.facebook.com/japana.sieuthinhat <i class="fab fa-facebook-f"></i></span></a>
               </li>
@@ -222,35 +240,35 @@
                 <a class="nav-link" href="#">
                   (028) 7108 8889 <i class="fas fa-phone-alt"></i></a>
               </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="{{url('/tai-khoan')}}"> Đăng nhập</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link gach" href="{{url('/tai-khoan')}}">Đăng ký</a>
-              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url('/tai-khoan')}}"> Đăng nhập</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link gach" href="{{url('/tai-khoan')}}">Đăng ký</a>
+                </li>
 
 
-            </ul>
+              </ul>
+            </div>
+          </nav>
+          <div class="item other-top item-follow-order">
+            <div class="follow-order other">
+              <a rel="nofollow" href="{{url('/theo-doi-don-hang ')}}" title="Theo dõi đơn hàng">
+                <i class="icon-all-new icon-follow icon-follow-header"></i>
+                <span class="text-color-white">Theo dõi<br>đơn hàng</span>
+              </a>
+            </div>
+            <div class="cart other">
+              <a rel="nofollow" href="{{url('/gio-hang')}}" title="Giỏ hàng">
+                <i class="icon-all-new icon-cart icon-cart-header"></i>
+                <span class="number-cart"><abbr class="count-giohang">0</abbr></span>
+              </a>
+            </div>
           </div>
-        </nav>
-        <div class="item other-top item-follow-order">
-          <div class="follow-order other">
-            <a rel="nofollow" href="{{url('/theo-doi-don-hang ')}}" title="Theo dõi đơn hàng">
-              <i class="icon-all-new icon-follow icon-follow-header"></i>
-              <span class="text-color-white">Theo dõi<br>đơn hàng</span>
-            </a>
-          </div>
-          <div class="cart other">
-            <a rel="nofollow" href="{{url('/gio-hang')}}" title="Giỏ hàng">
-              <i class="icon-all-new icon-cart icon-cart-header"></i>
-              <span class="number-cart"><abbr class="count-giohang">0</abbr></span>
-            </a>
-          </div>
+
         </div>
 
       </div>
-
-    </div>
 
     </div>
     <div class=" d-flex flex-column justify-center align-items-center bannercmart" id="gradient">

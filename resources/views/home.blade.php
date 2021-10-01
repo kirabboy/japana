@@ -16,9 +16,9 @@
     <script src="{{ asset('js/boostrap/bootstrap.bundle.min.js')}}"></script>
     <script src="{{ asset('js/boostrap/bootstrap.min.js')}}"></script>
 
-  
 
-   
+
+
 
 
     @extends('layout.footer')
@@ -62,7 +62,7 @@
                         <a href="{{url('/khuyen-mai')}}{{url('/khuyen-mai')}}" class="img-pc">
                             <img src="https://japana.vn/uploads/block/2021/08/27/1630027301-1600x400.jpeg" alt="Chicago">
                         </a>
-                        <a href="{{url('/khuyen-mai')}}{{url('/khuyen-mai')}} class="img-mobile">
+                        <a href="{{url('/khuyen-mai')}}{{url('/khuyen-mai')}}" class="img-mobile">
                             <img alt="Vệ Sinh Nhà Cửa Chỉ Từ 29k" src="https://japana.vn/uploads/block/2021/08/27/1630027301-750x600.jpeg">
                         </a>
 
@@ -101,6 +101,14 @@
 
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
                 <ul class="carousel-indicators carousel-pc" style="" role="tablist">
                     <li data-target="#demo" data-slide-to="0" class="active"><a class="pager-item" title="Chung tay đánh bay COVID"> Chung tay đánh bay COVID </a></li>
                     <li class="" data-target="#demo" data-slide-to="1"><a class="pager-item" title="Thương Hiệu Tặng Quà 2 Triệu"> Thương Hiệu Tặng Quà 2 Triệu </a></li>
@@ -287,7 +295,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>>
+                                </div>
                                 <div class="sp">
                                     <div class="box3item">
                                         <div class="box-img">
@@ -644,7 +652,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>>
+                                </div>
                                 <div class="sp">
                                     <div class="box3item">
                                         <div class="box-img">
@@ -1001,7 +1009,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>>
+                                </div>
                                 <div class="sp">
                                     <div class="box3item">
                                         <div class="box-img">
@@ -1358,7 +1366,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>>
+                                </div>
                                 <div class="sp">
                                     <div class="box3item">
                                         <div class="box-img">
@@ -1715,7 +1723,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>>
+                                </div>
                                 <div class="sp">
                                     <div class="box3item">
                                         <div class="box-img">
@@ -2072,7 +2080,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>>
+                                </div>
                                 <div class="sp">
                                     <div class="box3item">
                                         <div class="box-img">
@@ -2611,7 +2619,7 @@
 
     @endsection
 
-   
+
     <script type='text/javascript'>
         $(document).ready(function() {
 
@@ -2649,6 +2657,6 @@
             });
         });
     </script>
-</body>
+    </body>
 
 </html>
