@@ -102,7 +102,7 @@ li {
     }
     .dropdown-navcmart li{
         padding: 5px 0px 5px 5px ;
-        border-top: thin solid #b1154a
+        border-top: 1px solid #ececec;
     }
     .dropdown-navcmart li a{
         font-weight: 400;
@@ -111,6 +111,7 @@ li {
     }
     .dropdown-navcmart li:hover{
         background-color:#ffba00;
+        border-bottom: 1px solid #fff;
        
 
     }

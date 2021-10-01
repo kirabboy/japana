@@ -212,6 +212,7 @@
                       <li><a rel="nofollow" href="{{url('/quyen-loi-vip')}}" title="Quyền lợi VIP">Quyền lợi VIP</a></li>
                       <li><a rel="nofollow" href="{{url('/quy-dinh-ban-hang')}}" title="Quy định bán hàng trên Website Japana">Quy định bán hàng trên Website Japana</a></li>
                       <li><a rel="nofollow" href="{{url('/cau-hoi-thuong-gap')}}" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+                      
 
                     </ul>
                   </li>
