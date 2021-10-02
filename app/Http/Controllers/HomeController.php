@@ -7,39 +7,39 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     //
-    public function csvc(){
-        return view('csvc');
+
+    public function gt(){
+        return view ('gt');
     }
-    public function dkgd(){
-        return view('dkgd');
+    public function csdd(){
+        return view ('csdd');
     }
-    public function pttt(){
-        return view ('pttt');
+    public function hddh(){
+        return view ('hddh');
     }
-    public function tggh(){
-        return view ('tggh');
+    public function cstt(){
+        return view ('cstt');
     }
-    public function csbh(){
-        return view ('csbh');
-    }
-    public function csbm(){
-        return view ('csbm');
+    public function csgn(){
+        return view ('csgn');
     }
     public function csdt(){
         return view ('csdt');
     }
-    public function hdmh(){
-        return view ('hdmh');
+    public function csbh(){
+        return view ('csbh');
+    }
+    public function qddk(){
+        return view ('qddk');
     }
     public function qlv(){
         return view ('qlv');
     }
-    public function qdbh(){
-        return view ('qdbh');
+    public function dt(){
+        return view ('dt');
     }
-    public function chtg(){
-        return view ('chtg');
-    }
+
+
 
 
 

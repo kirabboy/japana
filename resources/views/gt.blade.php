@@ -27,7 +27,7 @@
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Chính Sách Bảo Mật</a>
+        <a href="# " class="cs">/Giới Thiệu</a>
       </div>
     </div>
   </section>
@@ -39,21 +39,20 @@
         <div class="col-lg-4 col-md-5 sliderbar  ">
           <div class="card the w-75  ">
             <div class="list-group ">
-                <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
+                <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> C-MART Việt Nam</a>
                 <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
-                <a href="{{url('/')}}" class="   content-hover  list-group-item list-group -item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
-                <a href="{{url('/dkgd')}}" class="content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
-                <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
-                <a href="{{url('/tggh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
-                <a href="{{url('/csbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
-                <a href="{{url('/csbm')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">Giới Thiệu</a>
-                <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
-                <a href="{{url('/hdmh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
-                <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quyền lời VIP </a>
-                <a href="{{url('/qdbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
-                <a href="{{url('/chtg')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Câu hỏi thương gặp </a>
+                <a href="{{url('/')}}" class=" active-csv content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Giơi Thiệu</a>
+                <a href="{{url('/csdd')}}" class="content-hover content-list list-group-item list-group-item-action border-0 ">Chính Sách Định Danh & Quyền Lợi Khách Hàng</a>
+                <a href="{{url('/hddh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Hướng Dẫn Đặt Hàng</a>
+                <a href="{{url('/cstt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Thanh Toán</a>
+                <a href="{{url('/csgn')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Giao Nhận </a>
+                <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Đổi Trả </a>
+                <a href="{{url('/csbh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Bảo Hành</a>
+                <a href="{{url('/qddk')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy Định Điều Khoản  </a>
+                <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">C-MART & Khách Hàng Đặt Biệt  </a>
+                <a href="{{url('/dt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">C-MART & Đối Tác </a>
                 <a href="{{url('/lh')}}" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Liên hệ</a>
-              </div>
+            </div>
           </div>
 
         </div>
@@ -69,14 +68,14 @@
         <div class="static-detail">
             <h3 class="title">C-MART TỰ GIỚI THIỆU </h3>
             <div class="detail-static">
-              
-              <p style="text-alignt:justify">Bằng cách giao dịch với C-Mart, Quý Khách đã đồng ý điều khoản: Trước khi C-Mart xác nhận yêu cầu hủy thông tin liên lạc được Quý Khách đăng ký với C-Mart, thì mọi giao dịch, giao kết từ các kênh liên lạc trên đều được xem là giao kết Hợp đồng chính thức giữa C-Mart và Quý Khách. Trước thời điểm trên, C-Mart xin miễn trừ mọi trách nhiệm từ những vấn đề phát sinh ngoài ý muốn của Quý Khách qua các kênh liên lạc trên.</p>                
+
+              <p style="text-alignt:justify">Bằng cách giao dịch với C-Mart, Quý Khách đã đồng ý điều khoản: Trước khi C-Mart xác nhận yêu cầu hủy thông tin liên lạc được Quý Khách đăng ký với C-Mart, thì mọi giao dịch, giao kết từ các kênh liên lạc trên đều được xem là giao kết Hợp đồng chính thức giữa C-Mart và Quý Khách. Trước thời điểm trên, C-Mart xin miễn trừ mọi trách nhiệm từ những vấn đề phát sinh ngoài ý muốn của Quý Khách qua các kênh liên lạc trên.</p>
               <h3 style="text-alignt:center">
               VỀ C-MART
               </h3>
               <div class="card-img text-center">
                 <img src="public/img/Picture1.png" style="width:75%">
-              </div> 
+              </div>
               <p style="text-alignt:justify">C-Mart hoạt động có định hướng theo mô hình Nhà phân phối tổng hợp - "Tất cả trong Một". Vì thế, C-Mart dưới nhiều hình thức luôn mở rộng đa dạng các ngành hàng, từ các sản phẩm hàng hóa đến các sản phẩm dịch vụ, từ các sản phẩm có giá trị lớn như bất động sản, phương tiện giao thông,… đến các sản phẩm thiết yếu trong cuộc sống hàng ngày như thực phẩm, nhu yếu phẩm,… vượt trội cả về chủng loại lẫn mẫu mã.</p>
               <p style="text-alignt:justify">C-Mart hoạt động với các mô hình:</p>
               <ul>
@@ -105,13 +104,13 @@
                 <li>●	Phạm vi phục vụ đa dạng, chất lượng, hướng đến mô hình "Tất cả trong Một", tạo một không gian mua sắm tiện lợi, nhanh chóng;</li>
                 <li>●	Giá cả tiết kiệm tối ưu nhờ sự cân bằng giữa mục tiêu lợi nhuận và mục tiêu nâng cao chất lượng sống của Quý Khách Hàng, cũng như thực hiện tầm nhìn, sứ mệnh và hệ thống giá trị cốt lõi của C-Mart;</li>
                 <li>●	Hệ thống các chính sách, chuỗi các sự kiện, chương trình ưu đãi - khuyến mãi được tổ chức thường xuyên, rộng rãi.</li>
-              
-              
+
+
               </ul>
-            
-            
-            
-            
+
+
+
+
             </div>
         </div>
         <div class="modal-footer ">
@@ -124,6 +123,37 @@
 
 
 
+
+
+
+
+
+  <div class="modal right fade" id="rightModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="nav flex-column">
+            <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> C-MART Việt Nam</a>
+                <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
+                <a href="{{url('/')}}" class=" active-csv content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Giơi Thiệu</a>
+                <a href="{{url('/csdd')}}" class="content-hover content-list list-group-item list-group-item-action border-0 ">Chính Sách Định Danh & Quyền Lợi Khách Hàng</a>
+                <a href="{{url('/hddh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Hướng Dẫn Đặt Hàng</a>
+                <a href="{{url('/cstt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Thanh Toán</a>
+                <a href="{{url('/csgn')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Giao Nhận </a>
+                <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Đổi Trả </a>
+                <a href="{{url('/csbh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Bảo Hành</a>
+                <a href="{{url('/qddk')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy Định Điều Khoản  </a>
+                <a href="{{url('/qlv')}}" class="content-hover content-list list-group-item list-group-item-action border-0">C-MART & Khách Hàng Đặt Biệt  </a>
+                <a href="{{url('/dt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">C-MART & Đối Tác </a>
+                <a href="{{url('/lh')}}" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Liên hệ</a>
+          </div>
+        </div>
+        <div class="modal-footer ">
+          <button type="button" class="btn an   content-hover" data-dismiss="modal"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -27,7 +27,7 @@
     <div class="container" >
       <div class="content-nav">
         <a href="#" class="tchu">Trang Chủ</a>
-        <a href="# " class="cs">/Quyền Lợi Vip</a>
+        <a href="# " class="cs">/C-Mart Và Khách Hàng Đặt Biệt</a>
       </div>
     </div>
   </section>
@@ -39,21 +39,20 @@
         <div class="col-lg-4 col-md-5 sliderbar  ">
           <div class="card the  w-75  ">
             <div class="list-group ">
-                <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
+                <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> C-MART Việt Nam</a>
                 <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
-                <a href="{{url('/')}}" class="content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Chính sách vận chuyển</a>
-                <a href="{{url('/dkgd')}}" class=" content-hover content-list list-group-item list-group-item-action border-0 ">Điều khoản giao dịch</a>
-                <a href="{{url('/pttt')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Phương thức thanh toán</a>
-                <a href="{{url('/tggh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Thời gian giao hàng </a>
-                <a href="{{url('/csbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo hành </a>
-                <a href="{{url('/csbm')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách bảo mật </a>
-                <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính sách đổi trả và hoàn tiền </a>
-                <a href="{{url('/hdmh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Hướng dẫn mua hàng  </a>
-                <a href="{{url('/qlv')}}" class=" active-csv content-hover content-list list-group-item list-group-item-action border-0">Quyền lời VIP </a>
-                <a href="{{url('/qdbh')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Quy định bán hàng trên Website japana </a>
-                <a href="{{url('/chtg')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Câu hỏi thương gặp </a>
+                <a href="{{url('/')}}" class="  content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Giơi Thiệu</a>
+                <a href="{{url('/csdd')}}" class=" content-hover content-list list-group-item list-group-item-action border-0 ">Chính Sách Định Danh & Quyền Lợi Khách Hàng</a>
+                <a href="{{url('/hddh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Hướng Dẫn Đặt Hàng</a>
+                <a href="{{url('/cstt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Thanh Toán</a>
+                <a href="{{url('/csgn')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Giao Nhận </a>
+                <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Đổi Trả </a>
+                <a href="{{url('/csbh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Bảo Hành</a>
+                <a href="{{url('/qddk')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Quy Định Điều Khoản  </a>
+                <a href="{{url('/qlv')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">C-MART & Khách Hàng Đặt Biệt  </a>
+                <a href="{{url('/dt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">C-MART & Đối Tác </a>
                 <a href="{{url('/lh')}}" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Liên hệ</a>
-              </div>
+            </div>
           </div>
 
         </div>
@@ -67,17 +66,67 @@
         </div>
         <!--Phan noi dung cua trang Chính Sách Vận Chuyển-->
         <div class="static-detail">
-            <h3 class="title">Quyền lợi VIP</h3>
+            <h3 class="title">C-Mart và khách hàng đặt biệt</h3>
             <div class="detail-static">
-                <p>Nhằm mang đến cho&nbsp;khách hàng thân thiết của Japana được mua hàng với&nbsp;những dịch vụ tốt nhất, chúng tôi đưa ra các Ưu Đãi&nbsp;tương ứng với cấp độ VIP&nbsp;như sau:</p>
+                <p style="text-alignt:justify">
+                     Bằng cách giao dịch với C-Mart, Quý Khách đã đồng ý điều khoản: Trước khi C-Mart xác nhận yêu cầu hủy thông tin liên lạc được Quý Khách đăng ký với C-Mart, thì mọi giao dịch, giao kết từ các kênh liên lạc trên đều được xem là giao kết Hợp đồng chính thức giữa C-Mart và Quý Khách. Trước thời điểm trên, C-Mart xin miễn trừ mọi trách nhiệm từ những vấn đề phát sinh ngoài ý muốn của Quý Khách qua các kênh liên lạc trên.
+                </p>
+                <p style="text-alignt:justify"> Giao dịch giữa C-Mart và Quý Khách Hàng Đặc Biệt tuân thủ theo các giao kết chung giữa hai bên (gọi chung là "Hợp đồng") cùng các chính sách, quy định, hướng dẫn của C-Mart:
 
-<ul>
-<li><strong>VIP&nbsp;Gold:</strong> Giảm 3% trên tất cả đơn hàng&nbsp;(điều kiện tổng số tiền đã mua là 10.000.000đ)</li>
-<li><strong>VIP&nbsp;Platinum: </strong>Giảm 4%&nbsp; trên tất cả đơn hàng&nbsp;(điều kiện tổng số tiền đã mua là 30.000.000đ)</li>
-<li><strong>VIP&nbsp;Diamond:</strong> Giảm 5% trên tất cả đơn hàng&nbsp;(điều kiện tổng số tiền đã mua là 50.000.000đ)</li>
-</ul>
+                </p>
+                <ul>
+                    <li>
+                        Bước 1: Quý Khách Hàng được nhận diện theo Chính sách Định danh Khách Hàng, tiến hành đăng ký Hồ Sơ Khách Hàng Đặc Biệt như hướng dẫn tại Hướng dẫn tạo mới HSKH Đặc biệt;
+                    </li>
+                    <li>Bước 2: Quý Khách Hàng tiến hành giao kết Hợp đồng với C-Mart;</li>
+                    <li>Bước 3: C-Mart và Quý Khách Hàng phối hợp hỗ trợ các phương tiện cần thiết để đối phương thực hiện Hợp đồng: thông tin có bản quyền (hình ảnh, nội dung, giấy tờ có liên quan…) về thương hiệu và sản phẩm,...</li>
+                    <li>Bước 4: C-Mart và Quý Khách Hàng phối hợp giao nhận, thanh toán, và thực hiện các điều khoản khác theo Hợp đồng;</li>
+                    <li>Bước 5: C-Mart và Quý Khách Hàng phối hợp xử trí những vấn đề phát sinh (nếu có).</li>
 
-<p><em><strong>Chúng tôi xin chân thành cảm ơn sự ủng hộ và đồng hành của Quý khách hàng!</strong></em></p>
+                </ul>
+                <p style="text-alignt:justify"> Quyền lợi của Quý Khách Hàng Đặc Biệt được quy định thỏa 02 mục:</p>
+                <ul>
+                    <li>⦁	Quyền lợi cơ bản của Khách Hàng;
+                    </li>
+                    <li>⦁	Khách Hàng Định Danh Thương Mại hoặc Khách Hàng Định Danh Cộng Tác Viên.</li>
+                </ul>
+                <p style="text-alignt:justify"> Trách nhiệm của Quý Khách Hàng Đặc Biệt được quy định thỏa 03 mục</p>
+                <ul>
+                    <li>⦁	Trách nhiệm của Khách Hàng ;
+                    </li>
+                    <li>⦁   Quy định Điều khoản & Điều kiện giao dịch;
+                        </li>
+                    <li>⦁	Các điều khoản khác theo Hợp đồng.</li>
+                </ul>
+                <p style="text-alignt:justify"> <strong>VẤN ĐỀ THƯỜNG GẶP » HỒ SƠ KHÁCH HÀNG ĐẶC BIỆT TẠI C-MART</strong></p>
+                <p style="text-alignt:justify"><strong>Phí HSKH Đặc Biệt tại C-Mart = MIỄN PHÍ ? Thời gian ?   </strong>	          </p>
+                <p style="text-alignt:justify">- HOÀN TOÀN MIỄN PHÍ. C-Mart hỗ trợ MIỄN PHÍ hoàn toàn các thao tác về Hồ Sơ Khách Hàng tại C-Mart, như tạo mới, chỉnh sửa, duy trì,…
+                    <br>- Thời gian xét duyệt thao tác diễn ra trong tối đa 24 giờ làm việc (kể từ thời điểm C-Mart xác nhận yêu cầu).
+                    </p>
+                <p style="text-alignt:justify">
+                <strong>Làm sao đây để biết bản thân đã có HSKH Đặc Biệt tại C-Mart hay chưa ?
+
+                    </strong></p>
+                <p style="text-alignt:justify">- Quý Khách Hàng truy cập vào Trang cá nhân, và kiểm tra mức Định danh Khách Hàng là: Khách Hàng Thương Mại hoặc Cộng Tác Viên.</p>
+                <p style="text-alignt:justify"> Hướng dẫn tạo mới HSKH Đặc Biệt.<strong></strong></p>
+                <ul>
+                    <li>Bước 1: Quý Khách Hàng thực hiện theo hướng dẫn tại Hướng dẫn tạo mới Hồ Sơ Khách Hàng ;</li>
+                    <li>
+                        Bước 2: Sau khi đã đăng ký thành công Hồ Sơ Khách Hàng, Quý Khách Hàng vui lòng liên hệ đến kênh giao dịch chính thức của C-Mart, bằng kênh thông tin xác nhận giao dịch với C-Mart để được hỗ trợ ngay và luôn.
+                        </li>
+                </ul>
+                <p style="text-alignt:justify"><strong>Hướng dẫn truy cập HSKH Đặc Biệt.</strong> </p>
+                <p style="text-alignt:justify">
+                    Quý Khách Hàng thực hiện tương tự theo hướng dẫn tại Hướng dẫn truy cập Hồ Sơ Khách Hàng.
+                    </p>
+                <p style="text-alignt:justify"><strong>
+                    Hướng dẫn quản lý thông tin HSKH Đặc Biệt.
+                    </strong></p>
+                <p style="text-alignt:justify">Quý Khách Hàng thực hiện tương tự theo hướng dẫn tại Hướng dẫn quản lý Hồ Sơ Khách Hàng.</p>
+
+
+
+
             </div>
         </div>
 
@@ -107,21 +156,20 @@
       <div class="modal-content">
         <div class="modal-body">
           <div class="nav flex-column">
-            <a href="#"                 class=" content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Japana Việt Nam</a>
-            <a href="#"                 class="active-cs content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
-            <a href="{{url('/')}}"      class="  content-hover nav-item nav-link">Chính sách vận chuyển</a>
-            <a href="{{url('/dkgd')}}"  class="content-hover nav-item nav-link">Điều khoản giao dịch</a>
-            <a href="{{url('/pttt')}}"  class=" content-hover nav-item nav-link">Phương thức thanh toán</a>
-            <a href="{{url('/tggh')}}"  class=" content-hover nav-item nav-link">Thời gian giao hàng </a>
-            <a href="{{url('/csbh')}}"  class="  content-hover nav-item nav-link">Chính sách bảo hành </a>
-            <a href="{{url('/csbm')}}"  class="  content-hover nav-item nav-link">Chính sách bảo mật </a>
-            <a href="{{url('/csdt')}}"  class=" content-hover nav-item nav-link">Chính sách đổi trả và hoàn tiền </a>
-            <a href="{{url('/hdmh')}}"  class="  content-hover nav-item nav-link">Hướng dẫn mua hàng  </a>
-            <a href="{{url('/qlv')}}"   class=" active-csv  content-hover nav-item nav-link">Quyền lời VIP </a>
-            <a href="{{url('/qdbh')}}"  class="  content-hover nav-item nav-link">Quy định bán hàng trên Website japana </a>
-            <a href="{{url('/chtg')}}"  class="  content-hover nav-item nav-link">Câu hỏi thương gặp </a>
-            <a href="#"  class="  content-hover-border nav-item nav-link"><i class="fas fa-info-circle"></i> Liên hệ</a>
-          </div>
+            <a href="#" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> C-MART Việt Nam</a>
+            <a href="#" class="active-cs content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Chăm sóc khách hàng</a>
+            <a href="{{url('/')}}" class="  content-hover  list-group-item list-group-item-action  border-bottom-0 border-right-0 border-left-0">Giơi Thiệu</a>
+            <a href="{{url('/csdd')}}" class=" content-hover content-list list-group-item list-group-item-action border-0 ">Chính Sách Định Danh & Quyền Lợi Khách Hàng</a>
+            <a href="{{url('/hddh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Hướng Dẫn Đặt Hàng</a>
+            <a href="{{url('/cstt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Thanh Toán</a>
+            <a href="{{url('/csgn')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Giao Nhận </a>
+            <a href="{{url('/csdt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Đổi Trả </a>
+            <a href="{{url('/csbh')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Chính Sách Bảo Hành</a>
+            <a href="{{url('/qddk')}}" class=" content-hover content-list list-group-item list-group-item-action border-0">Quy Định Điều Khoản  </a>
+            <a href="{{url('/qlv')}}" class="active-csv content-hover content-list list-group-item list-group-item-action border-0">C-MART & Khách Hàng Đặt Biệt  </a>
+            <a href="{{url('/dt')}}" class="content-hover content-list list-group-item list-group-item-action border-0">C-MART & Đối Tác </a>
+            <a href="{{url('/lh')}}" class="content-hover-border list-group-item list-group-item-action "><i class="fas fa-info-circle"></i> Liên hệ</a>
+        </div>
         </div>
         <div class="modal-footer ">
           <button type="button" class="btn an content-hover" data-dismiss="modal"><i class="fas fa-times"></i></button>
