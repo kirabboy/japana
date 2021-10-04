@@ -481,12 +481,25 @@ textarea.form-control {
 
 
 /* -----------------------------------Trang Đăng Nhập - Đăng Ký----------------------------------- */
+.form-box {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 10px auto;
+    background: #fff;
+    padding: 45px;
+    overflow: hidden;
+    border: 1px solid #999;
+    border-radius: 6px;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
 .form-box-1 {
     width: 500px;
+    height: 300px;
     position: relative;
-    margin: 6% auto;
+    margin: 10px auto;
     background: #fff;
-    padding: 15px;
+    padding: 45px;
     overflow: hidden;
     border: 1px solid #999;
     border-radius: 6px;
@@ -495,10 +508,10 @@ textarea.form-control {
 .form-box-2 {
     width: 500px;
     position: relative;
-    margin: 6% auto;
+    margin: 10px auto;
     background: #fff;
-    padding: 15px;
-    opacity: 0;
+    padding: 45px;
+    
     border: 1px solid #999;
     border-radius: 6px;
     box-shadow: 0 3px 9px rgba(0,0,0,.5);
@@ -526,7 +539,6 @@ textarea.form-control {
 }
 .input-group{
     position: absolute;
-    width: 400px;
 }
 .box-input {
     position: relative;
@@ -566,6 +578,7 @@ textarea.form-control {
     display: block;
     position: relative;
     padding-left: 50px;
+    padding-right: 90px;
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 14px;
@@ -610,20 +623,18 @@ span{
     font-weight: 500;
     color: #bb0029;
     text-transform: uppercase;
-    text-align: center;
-    margin: auto;
     margin-bottom: 5px;
 }
 .intro-log {
     font-size: 14px;
     line-height: 1.5;
     color: #999;
+    padding-right: 90px;
 }
 .link-return {
     font-size: 14px;
     display: inline-block;
     width: 100%;
-    text-align: right;
     color: #999;
     padding-top: 15px;
 }
@@ -642,21 +653,15 @@ span{
 #login{
     left: 50px;
 }
-#size-form-1{
-    height: 400px;
-}
-#size-form-2{
-    height: 350px;
-}
+
 #register{
     left: 550px;
+   
 }
 #forgot-password{
     left: 50px;
-    top: 50px;
+    top: 650px;
 }
-
-
 
 
 
