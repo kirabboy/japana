@@ -4,6 +4,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PolicyController;
 use App\Http\Controllers\ProductCategoryController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,14 +19,18 @@ use App\Http\Controllers\HomeController;
 
 
 // ADMIN
-
 Route::prefix('admin')->group(function () {
-    Route::get('/', function () {
-        return view('admin.dashboard');
-    });
-    Route::get('/login', function () {
-        return view('admin.login');
-    });
+    Route::get('/',[AdminController::class, 'getHome'])->name('admin.home');
+
+    Route::get('/login',[AdminController::class, 'getLogin'])->name('admin.login');
+
+    Route::post('/login',[AdminController::class, 'postLogin'])->name('admin.postLogin');
+
+
+    Route::get('/register',[AdminController::class, 'getRegister'])->name('admin.register');
+
+    Route::post('/register',[AdminController::class, 'postRegister'])->name('admin.postRegister');
+
     Route::get('/don-hang', function () {
         return view('admin.don-hang');
     });
