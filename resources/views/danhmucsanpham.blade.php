@@ -714,5 +714,5 @@
             document.body.style.overflow = "auto";
         }
     </script>
-<script src="{{ asset('js/danhmucsanpham.js') }}"></script>
+    <script src="{{ asset('js/danhmucsanpham.js') }}"></script>
 @endpush
