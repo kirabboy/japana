@@ -13,19 +13,19 @@
 
 <body>
     <main>
-        <!-- <div class="category-posts">
+        <div class="category-posts">
             <div class="container">
                 <ul>
                     <li><a href="#">Trang chủ</a></li>
                     <li><a href="#">Bài Viết Nổi Bật</a></li>
                 </ul>
             </div>
-        </div> -->
+        </div>
         <!-- posts -->
         <div class="Featured">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="col-sm-12 col-md-7 col-lg-8">
                         <div class="posts">
                             <div class="posts__title">
                                 <h3>Bài viết nổi bật</h3>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="col-sm-12 col-md-5 col-lg-4">
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <div class="category">
@@ -214,8 +214,6 @@
                 </div>
             </div>
         </div>
-
-
     </main>
 
 
