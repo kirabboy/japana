@@ -10,4 +10,7 @@ class ProductController extends Controller
     public function product(){
         return view('product');
     }
+    public function FeaturedPosts(){
+        return view('FeaturedPosts');
+    }
 }

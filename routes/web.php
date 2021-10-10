@@ -14,6 +14,7 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/product', [ProductController::class, 'product']);
+Route::get('/FeaturedPosts', [ProductController::class, 'FeaturedPosts']);
 
 
 
