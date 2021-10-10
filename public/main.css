@@ -1,0 +1,215 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+
+
+
+
+  }
+
+/* css cua phaan dieu huong trang chu */
+.trangchulink a{
+    text-decoration: none;
+    color: #007AFF;
+}
+/*title h2 phan noi dung */
+.title{
+    font-size:18px;
+}
+.list-group{
+    font-size: 16px;
+  }
+  .content-list{
+    margin-top: -10px;
+  }
+
+  .content-hover-border{
+    color: #333333;
+    background-color:#F1F1F1;
+    transition-property: color;
+    transition-duration: 0.5s;
+    font-size: 16px;
+  }
+  .content-hover-border:hover{
+    color:white;
+    background-color:#bb0029;
+  }
+  .content-hover-border:focus{
+    color:white;
+    background-color:#bb0029;
+  }
+
+  .content-hover{
+    background:white;
+    color:#333333;
+    transition-property: color;
+    transition-duration: 1s;
+    font-size: 16px;
+  }
+  /*phan css hiệu ứng khi rê chuột vào*/
+  .content-hover:hover{
+    color:#bb0029 ;
+    background-color:white;
+    transition: .25s all ease;
+    transition-delay: .25s;
+  }
+  .content-hover:focus{
+    background-color:white;
+    color:#bb0029
+  }
+  /*phan kết thúc css sliderbar*/
+::placeholder
+{
+    font-style: italic;
+}
+
+
+.hotline{
+    color: #333;
+    background-color:#F7F7F7;
+
+
+}
+.phonehotline p{
+    font-size: 16px;
+    color: #bb0029;
+}
+.phonehotline-two {
+    font-size: 16px;
+    color: #bb0029;
+}
+
+.newprice{
+    font-size:14px;
+    color: #bb0029;
+}
+.shopping{
+    color: green;
+}
+.sale {
+    font-size:11px ;
+}
+.title a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#919191;
+}
+.title a:hover{
+    color:#bb0029;
+    ;
+    transition: .25s all ease;
+    transition-delay: .25s;
+}
+.price{
+    color: #bb0029;
+    font-size: 14px;
+}
+.price-old{
+    color: #919191;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.logo-hover {
+    border: 2px solid gray ;
+}
+
+.logo-hover:hover{
+    border: 2px solid black;
+}
+
+.nen{
+    background-image: url("img/1615432601-icon-giam-gia-2-02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width:50%;
+    background-size: cover;
+    position: relative;
+    font-size: 11px;
+    color: white;
+
+}
+
+
+
+
+
+.nho{
+    display:none;
+    font-size: 11px;
+
+    background-color: #bb0029;
+
+}
+
+.detail-new{
+    line-height: 2;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.detail-new h2{
+    font-size: 22px;
+}
+.detail-new h3{
+    text-align: left;
+    font-size: 18px;
+    color: #0d8815;
+}
+.detail-new p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.8;
+}
+
+.link{
+    color: #000;
+    text-decoration: underline;
+}
+.link:hover{
+    color: #007AFF;
+    text-decoration: none;
+}
+.content-sp{
+    font-size: 16px;
+}
+.masp{
+    font-size: 14px;
+    color: #555;
+}
+
+
+.price-content p{
+    font-size: 18px;
+    color: #bb0029;
+}
+
+.price-content-old p{
+    font-size: 16px;
+    color: #333333;
+    text-decoration: line-through;
+ 
+}
+.danhsach ul{
+    list-style: none;
+}
+@media screen and ( max-width:990px){
+    /*dùng để ẩn nút button cua slider*/
+
+    /*sua lai ten btn vi trung trong thu vien */
+    .lon
+    {
+      display:none;
+
+    }
+    /*sua lai ten card khonog nen de trung thu vien booostap*/
+
+    .nho{
+        display: inline;
+        background-color: #bb0029;
+    }
+    /*dùng để ẩn slidebar*/
+
+      }
+
